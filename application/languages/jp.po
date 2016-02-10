@@ -1,0 +1,2118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PlainDesk\n"
+"POT-Creation-Date: 2015-03-16 17:10+0100\n"
+"PO-Revision-Date: 2015-03-25 00:03+0100\n"
+"Last-Translator: Mouhcine <mouhcine.benchekroun@gmail.com>\n"
+"Language-Team: Mouhcine <mouhcine.benchekroun@myseat.fr>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: C:\\NEW_MYSEAT\\MYSEAT\\Principal\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: application\n"
+
+#: application/controllers/Admin.php:28
+#: application/views/admin/adduser.phtml:19
+msgid "Add a New User"
+msgstr "新規ユーザーを追加"
+
+#: application/controllers/Admin.php:28 application/controllers/Admin.php:43
+#: application/controllers/Admin.php:71 application/controllers/Admin.php:82
+#: application/controllers/Admin.php:100 application/controllers/Admin.php:110
+#: application/controllers/Admin.php:123 application/controllers/Admin.php:137
+#: application/controllers/Admin.php:150 application/controllers/Admin.php:159
+#: application/controllers/Admin.php:172 application/controllers/Owner.php:34
+#: application/controllers/Owner.php:49 application/controllers/Owner.php:88
+#: application/controllers/Superadmin.php:28
+#: application/controllers/Superadmin.php:38
+#: application/controllers/Superadmin.php:49
+#: application/controllers/Superadmin.php:61
+#: application/controllers/Superadmin.php:80
+#: application/controllers/Superadmin.php:98
+#: application/controllers/Superadmin.php:116
+#: application/controllers/Superadmin.php:136
+msgid "Administration"
+msgstr "管理"
+
+#: application/controllers/Admin.php:43
+msgid "Edit User"
+msgstr "ユーザーを編集"
+
+#: application/controllers/Admin.php:71 application/models/Backendmenu.php:89
+#: application/views/admin/adduser.phtml:16
+#: application/views/admin/users.phtml:16
+msgid "Users"
+msgstr "ユーザー"
+
+#: application/controllers/Admin.php:82
+#: application/controllers/Superadmin.php:38
+#: application/models/Backendmenu.php:47
+msgid "Manage Maps"
+msgstr "マップを管理"
+
+#: application/controllers/Admin.php:100
+#: application/controllers/Superadmin.php:116
+msgid "Edit Map"
+msgstr "マップを編集"
+
+#: application/controllers/Admin.php:110
+msgid "Manage Chairs"
+msgstr "椅子を管理"
+
+#: application/controllers/Admin.php:123
+msgid "Manage Rooms"
+msgstr "部屋を管理"
+
+#: application/controllers/Admin.php:137
+msgid "Manage Spaces"
+msgstr "スペースを管理"
+
+#: application/controllers/Admin.php:150
+msgid "Configure statistics"
+msgstr "統計情報を設定"
+
+#: application/controllers/Admin.php:159
+msgid "Manage Groups"
+msgstr "グループを管理"
+
+#: application/controllers/Admin.php:172
+msgid "Manage Zones"
+msgstr "ゾーンを管理"
+
+#: application/controllers/Admin.php:187 application/controllers/Map.php:22
+#: application/controllers/Superadmin.php:133
+#: application/views/admin/chairsfrommapedit.phtml:8
+#: application/views/map/show.phtml:9
+#: application/views/superadmin/editchairassignmentedit.phtml:8
+msgid "MySeat.fr"
+msgstr "MySeat.fr"
+
+#: application/controllers/Ajax.php:19 application/controllers/Api.php:19
+#: application/controllers/Apiv2.php:19 application/controllers/Check.php:19
+#: application/controllers/Map.php:50 application/models/Customer.php:124
+#: application/models/Gateway.php:32 application/models/Map.php:53
+#: application/models/Sensor.php:78 application/models/User.php:105
+msgid "Error"
+msgstr "エラー"
+
+#: application/controllers/Ajax.php:19 application/controllers/Api.php:19
+#: application/controllers/Apiv2.php:19 application/controllers/Check.php:19
+#: application/controllers/Map.php:50
+msgid "An error has occured, please try again."
+msgstr "エラーが発生しました。もう一度お試しください。"
+
+#: application/controllers/Authentification.php:54
+#: application/controllers/Authentification.php:66
+msgid " - Authentification - MySeat"
+msgstr " - 認証 - MySeat"
+
+#: application/controllers/Authentification.php:58
+msgid "Your email or your password is incorrect."
+msgstr "Eメールまたはパスワードがまちがっています。"
+
+#: application/controllers/Index.php:24 application/controllers/Owner.php:15
+#: application/controllers/Temporal.php:20
+#: application/controllers/Utilization.php:20
+msgid " - MySeat"
+msgstr " - MySeat"
+
+#: application/controllers/Owner.php:34
+#: application/views/owner/addcustomer.phtml:19
+#: application/views/owner/addcustomer.phtml:30
+msgid "Add a New Customer"
+msgstr "新規顧客を追加"
+
+#: application/controllers/Owner.php:49
+msgid "Edit Customer"
+msgstr "顧客を編集"
+
+#: application/controllers/Owner.php:88 application/models/Backendmenu.php:116
+#: application/views/owner/addcustomer.phtml:16
+#: application/views/owner/customers.phtml:15
+msgid "Customers"
+msgstr "顧客"
+
+#: application/controllers/Profile.php:28
+msgid "Profile | Myseat.fr"
+msgstr "プロフィール | Myseat.fr"
+
+#: application/controllers/Superadmin.php:28
+#: application/views/superadmin/addmap.phtml:18
+#: application/views/superadmin/addmap.phtml:29
+msgid "Add a new map"
+msgstr "新規マップを追加"
+
+#: application/controllers/Superadmin.php:49
+#: application/models/Backendmenu.php:106
+#: application/views/superadmin/gateways.phtml:27
+msgid "Manage gateways"
+msgstr "ゲートウェイを管理"
+
+#: application/controllers/Superadmin.php:61
+#: application/models/Backendmenu.php:109
+#: application/views/superadmin/sensors.phtml:27
+msgid "Manage sensors"
+msgstr "センサを管理"
+
+#: application/controllers/Superadmin.php:80
+#: application/views/superadmin/editgateway.phtml:18
+#: application/views/superadmin/editgateway.phtml:29
+msgid "Edit gateway"
+msgstr "ゲートウェイを編集"
+
+#: application/controllers/Superadmin.php:98
+#: application/views/superadmin/editsensor.phtml:18
+#: application/views/superadmin/editsensor.phtml:29
+msgid "Edit sensor"
+msgstr "センサを編集"
+
+#: application/controllers/Superadmin.php:136
+msgid "Edit Chair Assignment"
+msgstr "椅子のアサイン状況を編集"
+
+#: application/models/Alerts.php:22
+msgid "No"
+msgstr "No"
+
+#: application/models/Alerts.php:23
+msgid "Yes"
+msgstr "Yes"
+
+#: application/models/Apiv2.php:46
+msgid "Group's ID is missing."
+msgstr "グループIDがありません。"
+
+#: application/models/Apiv2.php:58
+msgid "Room's ID is missing."
+msgstr "部屋IDがありません。"
+
+#: application/models/Apiv2.php:60
+msgid "The date is missing."
+msgstr "日付がありません。"
+
+#: application/models/Apiv2.php:62
+msgid "The hour is missing."
+msgstr "時間がありません。"
+
+#: application/models/Apiv2.php:64
+msgid "The hour is incorrect."
+msgstr "時間がまちがっています。"
+
+#: application/models/Backendmenu.php:21
+#: application/views/index/index.phtml:13
+#: application/views/index/index.phtml:19
+#: application/views/owner/index.phtml:13
+#: application/views/owner/index.phtml:18
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: application/models/Backendmenu.php:24
+#: application/views/Temporal/index.phtml:11
+#: application/views/Temporal/index.phtml:20
+#: application/views/owner/editcustomer.phtml:31
+msgid "Temporal analysis"
+msgstr "時間分析"
+
+#: application/models/Backendmenu.php:28
+#: application/views/owner/editcustomer.phtml:36
+#: application/views/utilization/index.phtml:11
+#: application/views/utilization/index.phtml:20
+msgid "Utilization analysis"
+msgstr "使用分析"
+
+#: application/models/Backendmenu.php:43
+#: application/views/admin/statistics.phtml:16
+msgid "Configuration"
+msgstr "コンフィギュレーション"
+
+#: application/models/Backendmenu.php:46
+#: application/models/Backendmenu.php:101
+#: application/views/admin/editmap.phtml:15
+#: application/views/admin/maps.phtml:21
+#: application/views/superadmin/addmap.phtml:15
+#: application/views/superadmin/editmap.phtml:15
+#: application/views/superadmin/maps.phtml:15
+msgid "Maps"
+msgstr "マップ"
+
+#: application/models/Backendmenu.php:51 application/models/Group.php:69
+#: application/models/Room.php:89 application/models/Space.php:58
+#: application/models/TemporalWidget.php:119
+#: application/models/UtilizationWidget.php:116
+#: application/models/Widgets.php:66 application/views/admin/chairs.phtml:21
+#: application/views/admin/groups.phtml:50
+#: application/views/admin/rooms.phtml:53
+#: application/views/admin/spaces.phtml:50
+msgid "Chairs"
+msgstr "椅子"
+
+#: application/models/Backendmenu.php:52
+#: application/views/admin/chairs.phtml:32
+msgid "Manage chairs"
+msgstr "椅子を管理"
+
+#: application/models/Backendmenu.php:55
+msgid "Manage by map"
+msgstr "マップごとに管理"
+
+#: application/models/Backendmenu.php:63 application/models/Group.php:70
+#: application/models/Space.php:59 application/models/TemporalWidget.php:132
+#: application/models/UtilizationWidget.php:125
+#: application/models/Widgets.php:69 application/views/admin/chairs.phtml:45
+#: application/views/admin/groups.phtml:53
+#: application/views/admin/rooms.phtml:21
+#: application/views/admin/spaces.phtml:53
+msgid "Rooms"
+msgstr "部屋"
+
+#: application/models/Backendmenu.php:64
+#: application/views/admin/rooms.phtml:32
+msgid "Manage rooms"
+msgstr "部屋を管理"
+
+#: application/models/Backendmenu.php:68 application/models/Group.php:71
+#: application/models/TemporalWidget.php:138
+#: application/models/UtilizationWidget.php:128
+#: application/models/Widgets.php:70 application/views/admin/chairs.phtml:48
+#: application/views/admin/groups.phtml:56
+#: application/views/admin/spaces.phtml:21
+msgid "Spaces"
+msgstr "スペース"
+
+#: application/models/Backendmenu.php:69
+#: application/views/admin/spaces.phtml:32
+msgid "Manage spaces"
+msgstr "スペースを管理"
+
+#: application/models/Backendmenu.php:74
+#: application/models/TemporalWidget.php:122
+#: application/models/UtilizationWidget.php:119
+#: application/models/Widgets.php:67 application/views/admin/chairs.phtml:51
+#: application/views/admin/groups.phtml:21
+msgid "Groups"
+msgstr "グループ"
+
+#: application/models/Backendmenu.php:75
+#: application/views/admin/groups.phtml:32
+msgid "Manage groups"
+msgstr "グループを管理"
+
+#: application/models/Backendmenu.php:80
+#: application/models/TemporalWidget.php:125
+#: application/models/UtilizationWidget.php:122
+#: application/models/Widgets.php:68 application/views/admin/zones.phtml:21
+msgid "Zones"
+msgstr "ゾーン"
+
+#: application/models/Backendmenu.php:81
+#: application/views/admin/zones.phtml:32
+msgid "Manage zones"
+msgstr "ゾーンを管理"
+
+#: application/models/Backendmenu.php:84
+msgid "Statistics"
+msgstr "統計データ"
+
+#: application/models/Backendmenu.php:90
+msgid "Add new user"
+msgstr "新規ユーザーを追加"
+
+#: application/models/Backendmenu.php:91
+#: application/views/admin/users.phtml:19
+#: application/views/admin/users.phtml:30
+msgid "Manage users"
+msgstr "ユーザーを管理"
+
+#: application/models/Backendmenu.php:100
+msgid "A - Configuration"
+msgstr "A - コンフィギュレーション"
+
+#: application/models/Backendmenu.php:102
+msgid "Add new map"
+msgstr "新規マップを追加"
+
+#: application/models/Backendmenu.php:103
+#: application/views/admin/maps.phtml:32
+#: application/views/superadmin/maps.phtml:26
+msgid "Manage maps"
+msgstr "マップを管理"
+
+#: application/models/Backendmenu.php:105
+#: application/views/superadmin/editgateway.phtml:15
+#: application/views/superadmin/gateways.phtml:16
+msgid "Gateways"
+msgstr "ゲートウェイ"
+
+#: application/models/Backendmenu.php:108
+#: application/views/superadmin/editsensor.phtml:15
+#: application/views/superadmin/sensors.phtml:16
+msgid "Sensors"
+msgstr "センサ"
+
+#: application/models/Backendmenu.php:117
+msgid "Add new customer"
+msgstr "新規顧客を追加"
+
+#: application/models/Backendmenu.php:118
+#: application/views/owner/customers.phtml:18
+msgid "Manage customers"
+msgstr "顧客を管理"
+
+#: application/models/Chair.php:34 application/models/Chair.php:109
+#: application/views/superadmin/editsensor.phtml:41
+msgid "Chair's name"
+msgstr "椅子名"
+
+#: application/models/Chair.php:57 application/models/Chair.php:116
+#: application/models/Chair.php:132 application/models/Group.php:57
+#: application/models/Map.php:139 application/models/Room.php:77
+#: application/models/Space.php:46 application/models/Zone.php:39
+#: application/views/admin/editmap.phtml:49
+#: application/views/admin/edituser.phtml:124
+#: application/views/admin/edituser.phtml:160
+#: application/views/admin/statistics.phtml:35
+#: application/views/backend.phtml:132
+#: application/views/owner/editcustomer.phtml:301
+#: application/views/owner/editcustomer.phtml:345
+#: application/views/owner/editcustomer.phtml:389
+#: application/views/owner/editcustomer.phtml:432
+#: application/views/owner/editcustomer.phtml:451
+#: application/views/owner/editcustomer.phtml:468
+#: application/views/profile/index.phtml:103
+#: application/views/profile/index.phtml:139
+#: application/views/public-map.phtml:87
+#: application/views/superadmin/editgateway.phtml:110
+#: application/views/superadmin/editmap.phtml:90
+#: application/views/superadmin/editsensor.phtml:48
+msgid "Update"
+msgstr "更新"
+
+#: application/models/Chair.php:108 application/models/Chair.php:114
+#: application/models/Chair.php:125 application/models/Chair.php:126
+msgid "Edit chair"
+msgstr "椅子を編集"
+
+#: application/models/Chair.php:109 application/models/Group.php:68
+#: application/models/Room.php:88 application/models/Space.php:57
+#: application/models/TemporalWidget.php:90
+#: application/models/UtilizationWidget.php:98
+#: application/models/Widgets.php:97 application/models/Widgets.php:114
+#: application/views/admin/chairs.phtml:42
+#: application/views/admin/editmap.phtml:37
+#: application/views/admin/groups.phtml:47
+#: application/views/admin/maps.phtml:42
+#: application/views/admin/rooms.phtml:47
+#: application/views/admin/spaces.phtml:47
+#: application/views/admin/zones.phtml:42
+#: application/views/owner/addcustomer.phtml:38
+#: application/views/owner/customers.phtml:34
+#: application/views/owner/editcustomer.phtml:85
+#: application/views/superadmin/addmap.phtml:37
+#: application/views/superadmin/editmap.phtml:37
+#: application/views/superadmin/maps.phtml:36
+msgid "Name"
+msgstr "名前"
+
+#: application/models/Chair.php:110
+msgid "In Room"
+msgstr "室内"
+
+#: application/models/Chair.php:111 application/models/Room.php:90
+#: application/views/admin/rooms.phtml:56
+msgid "In Spaces"
+msgstr "スペース内"
+
+#: application/models/Chair.php:112 application/models/Room.php:91
+#: application/models/Space.php:60 application/views/admin/rooms.phtml:59
+#: application/views/admin/spaces.phtml:56
+msgid "In Groups"
+msgstr "グループ内"
+
+#: application/models/Chair.php:117 application/models/Chair.php:133
+msgid "Close"
+msgstr "Close"
+
+#: application/models/Chair.php:129
+msgid "Sensor"
+msgstr "センサ"
+
+#: application/models/Chair.php:129 application/models/TemporalWidget.php:116
+msgid "None"
+msgstr "なし"
+
+#: application/models/Countries.php:16
+msgid "United States"
+msgstr "United States"
+
+#: application/models/Countries.php:17
+msgid "Canada"
+msgstr "Canada"
+
+#: application/models/Countries.php:18
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+#: application/models/Countries.php:19
+msgid "Australia"
+msgstr "Australia"
+
+#: application/models/Countries.php:20
+msgid "France"
+msgstr "France"
+
+#: application/models/Countries.php:35
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: application/models/Countries.php:114
+msgid "Ireland"
+msgstr "Ireland"
+
+#: application/models/Countries.php:115
+msgid "Israel"
+msgstr "Israel"
+
+#: application/models/Countries.php:147
+msgid "Mexico"
+msgstr "Mexico"
+
+#: application/models/Countries.php:160
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: application/models/Countries.php:176
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: application/models/Countries.php:193
+msgid "South Africa"
+msgstr "South Africa"
+
+#: application/models/Customer.php:45 application/models/Customer.php:115
+#: application/models/Customer.php:156 application/models/Customer.php:176
+#: application/models/Customer.php:195 application/models/Customer.php:215
+#: application/models/Customer.php:234 application/models/Gateway.php:23
+#: application/models/Map.php:44 application/models/Sensor.php:69
+#: application/models/User.php:96 application/models/User.php:125
+#: application/models/User.php:149
+msgid "Success"
+msgstr "成功"
+
+#: application/models/Customer.php:45
+msgid "Configuration has been updated"
+msgstr "コンフィギュレーションが更新されました"
+
+#: application/models/Customer.php:56 application/models/User.php:50
+msgid "Owner"
+msgstr "所有者"
+
+#: application/models/Customer.php:59 application/models/User.php:53
+msgid "Super Admin"
+msgstr "上級管理者"
+
+#: application/models/Customer.php:62 application/models/User.php:56
+msgid "Admin"
+msgstr "管理者"
+
+#: application/models/Customer.php:64 application/models/User.php:58
+msgid "Agent"
+msgstr "エージェント"
+
+#: application/models/Customer.php:65 application/models/User.php:59
+msgid "Simple user"
+msgstr "シンプルユーザー"
+
+#: application/models/Customer.php:73
+msgid "Black & White"
+msgstr "白黒"
+
+#: application/models/Customer.php:74
+msgid "Blue"
+msgstr "青"
+
+#: application/models/Customer.php:75
+msgid "Red"
+msgstr "赤"
+
+#: application/models/Customer.php:76
+msgid "Dark"
+msgstr "Dark"
+
+#: application/models/Customer.php:77
+msgid "Green"
+msgstr "緑"
+
+#: application/models/Customer.php:78
+msgid "Light"
+msgstr "Light"
+
+#: application/models/Customer.php:79
+msgid "navy"
+msgstr "紺"
+
+#: application/models/Customer.php:115 application/models/Customer.php:156
+#: application/models/Customer.php:176 application/models/Customer.php:195
+msgid "Customer's datas had been updated"
+msgstr "顧客データは既に更新済みです"
+
+#: application/models/Customer.php:124
+msgid ""
+"No data has been updated ! maybe you didn't change anything, or the email is "
+"already taken."
+msgstr ""
+"データは更新されていません。変更事項が何も無かった、もしくは、Eメールが"
+
+#: application/models/Customer.php:215
+msgid "Customer's alerts had been updated"
+msgstr "顧客の警告は既に更新済みです"
+
+#: application/models/Customer.php:234
+msgid "Customer's deployment dates had been updated"
+msgstr "顧客の配置日付は既に更新済みです"
+
+#: application/models/Customers.php:46 application/models/Sensor.php:11
+#: application/models/Users.php:46 application/views/admin/statistics.phtml:29
+#: application/views/admin/statistics.phtml:31
+#: application/views/superadmin/editgateway.phtml:53
+#: application/views/superadmin/gateways.phtml:3
+msgid "Enabled"
+msgstr "有効"
+
+#: application/models/Customers.php:48 application/models/Sensor.php:10
+#: application/models/Users.php:48 application/views/admin/statistics.phtml:29
+#: application/views/admin/statistics.phtml:31
+#: application/views/superadmin/editgateway.phtml:53
+#: application/views/superadmin/gateways.phtml:3
+msgid "Disabled"
+msgstr "無効"
+
+#: application/models/Customers.php:55 application/models/Sensor.php:43
+#: application/models/Users.php:55
+msgid "edit"
+msgstr "編集"
+
+#: application/models/Date.php:71 application/models/Date.php:79
+msgid "second"
+msgstr "2番目"
+
+#: application/models/Date.php:74
+msgid "year"
+msgstr "年"
+
+#: application/models/Date.php:75
+msgid "month"
+msgstr "月"
+
+#: application/models/Date.php:76 application/models/TemporalWidget.php:549
+#: application/models/UtilizationWidget.php:454
+msgid "day"
+msgstr "日"
+
+#: application/models/Date.php:77
+msgid "hour"
+msgstr "時"
+
+#: application/models/Date.php:78
+msgid "minute"
+msgstr "分"
+
+#: application/models/Date.php:85
+msgid " ago"
+msgstr " 前"
+
+#: application/models/Date.php:353
+msgid "- Never -"
+msgstr "- 通信履歴無し -"
+
+#: application/models/Date.php:371
+msgid "-"
+msgstr " -"
+
+#: application/models/Formgenerator.php:170
+msgid "-- select --"
+msgstr "-- 選択 --"
+
+#: application/models/Gateway.php:23
+msgid "The Gateway has been updated"
+msgstr "ゲートウェイが更新されました"
+
+#: application/models/Gateway.php:32 application/models/Map.php:53
+#: application/models/Sensor.php:78
+msgid "No data has been updated ! maybe you didn't change anything."
+msgstr "データは更新されていません。何も変更していなかった可能性があります。"
+
+#: application/models/Group.php:34 application/models/Group.php:68
+msgid "Group's Name"
+msgstr "グループ名"
+
+#: application/models/Group.php:57 application/models/Room.php:77
+#: application/models/Space.php:46
+msgid "Remove"
+msgstr "削除"
+
+#: application/models/Group.php:67 application/models/Group.php:73
+msgid "Add New Group"
+msgstr "新規グループを追加"
+
+#: application/models/Group.php:75 application/models/Room.php:95
+#: application/models/Space.php:64 application/models/Widgets.php:103
+#: application/models/Widgets.php:120
+msgid "Add"
+msgstr "追加"
+
+#: application/models/Group.php:76 application/models/Room.php:96
+#: application/models/Space.php:65
+msgid "cancel"
+msgstr "キャンセル"
+
+#: application/models/Languages.php:11
+msgid "All languages"
+msgstr "全言語"
+
+#: application/models/Languages.php:14 application/models/Translation.php:52
+msgid "English"
+msgstr "英語"
+
+#: application/models/Languages.php:15 application/models/Translation.php:53
+msgid "French"
+msgstr "フランス語"
+
+#: application/models/Languages.php:16
+msgid "Spanish"
+msgstr "スペイン語"
+
+#: application/models/Languages.php:17
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: application/models/Languages.php:18
+msgid "German"
+msgstr "German"
+
+#: application/models/Map.php:44
+msgid "The map has been updated"
+msgstr "マップが更新されました"
+
+#: application/models/Map.php:121 application/views/superadmin/addmap.phtml:42
+msgid "Map's name"
+msgstr "マップの名前"
+
+#: application/models/Map.php:127
+msgid "Private"
+msgstr "プライベート"
+
+#: application/models/Map.php:127
+msgid "Public"
+msgstr "パブリック"
+
+#: application/models/Map.php:183
+msgid "A Gateway is disconnected"
+msgstr "ゲートウェイの接続が外されました"
+
+#: application/models/Map.php:224
+msgid "Free"
+msgstr "空き"
+
+#: application/models/Map.php:227
+msgid "Used"
+msgstr "使用中"
+
+#: application/models/Map.php:233
+msgid "seats"
+msgstr "席"
+
+#: application/models/Room.php:47 application/models/Room.php:88
+msgid "Room's name"
+msgstr "部屋名"
+
+#: application/models/Room.php:87 application/models/Room.php:93
+#: application/views/admin/rooms.phtml:35
+msgid "Add new room"
+msgstr "新規部屋を追加"
+
+#: application/models/Sensor.php:19
+msgid "Static"
+msgstr "固定"
+
+#: application/models/Sensor.php:20
+msgid "Dynamic"
+msgstr "動的"
+
+#: application/models/Sensor.php:69
+msgid "The sensor has been updated"
+msgstr "センサが更新されました"
+
+#: application/models/Space.php:23 application/models/Space.php:57
+msgid "Space' name"
+msgstr "スペース名"
+
+#: application/models/Space.php:56 application/models/Space.php:62
+#: application/views/admin/spaces.phtml:35
+msgid "Add new space"
+msgstr "新規スペースを追加"
+
+#: application/models/TemporalWidget.php:63
+#: application/models/TemporalWidget.php:144
+msgid "Dynamic rooms"
+msgstr "動的部屋"
+
+#: application/models/TemporalWidget.php:86
+#: application/models/UtilizationWidget.php:94
+#: application/models/Widgets.php:96 application/models/Widgets.php:101
+#: application/models/Widgets.php:113 application/models/Widgets.php:118
+#: application/views/Temporal/index.phtml:15
+#: application/views/utilization/index.phtml:15
+msgid "Add a new graphic"
+msgstr "新規グラフィックを追加"
+
+#: application/models/TemporalWidget.php:90
+#: application/models/UtilizationWidget.php:98
+msgid "Widget's Name"
+msgstr "装置などの名前"
+
+#: application/models/TemporalWidget.php:91
+#: application/models/UtilizationWidget.php:99
+#: application/models/Widgets.php:98 application/models/Widgets.php:115
+msgid "Type"
+msgstr "タイプ"
+
+#: application/models/TemporalWidget.php:92
+msgid "Calculation type"
+msgstr "計算タイプ"
+
+#: application/models/TemporalWidget.php:94
+msgid "Time unit"
+msgstr "時間の単位"
+
+#: application/models/TemporalWidget.php:96
+msgid "Minimum chairs"
+msgstr "最低椅子数"
+
+#: application/models/TemporalWidget.php:99
+#: application/models/UtilizationWidget.php:101
+#: application/models/Widgets.php:99 application/models/Widgets.php:116
+msgid "Size"
+msgstr "サイズ"
+
+#: application/models/TemporalWidget.php:101
+#: application/models/UtilizationWidget.php:103
+msgid "Date Range"
+msgstr "日付範囲"
+
+#: application/models/TemporalWidget.php:102
+#: application/models/UtilizationWidget.php:104
+msgid "Exclude dates"
+msgstr "日付を除外"
+
+#: application/models/TemporalWidget.php:111
+#: application/models/TemporalWidget.php:532
+#: application/models/UtilizationWidget.php:112
+#: application/models/UtilizationWidget.php:437
+msgid "Days of the week"
+msgstr "週の日数"
+
+#: application/models/TemporalWidget.php:112
+#: application/models/UtilizationWidget.php:113
+msgid "Hours"
+msgstr "時間"
+
+#: application/models/TemporalWidget.php:116
+msgid "Consolidation Level"
+msgstr "統合レベル"
+
+#: application/models/TemporalWidget.php:149
+#: application/models/UtilizationWidget.php:133
+msgid "Save & Refresh"
+msgstr "保存して更新"
+
+#: application/models/TemporalWidget.php:414
+#: application/models/UtilizationWidget.php:319
+msgid "date"
+msgstr "日付"
+
+#: application/models/TemporalWidget.php:414
+#: application/models/TemporalWidget.php:435
+#: application/models/TemporalWidget.php:436
+#: application/models/TemporalWidget.php:437
+#: application/models/TemporalWidget.php:438
+#: application/models/TemporalWidget.php:439
+#: application/models/TemporalWidget.php:440
+#: application/models/TemporalWidget.php:441
+#: application/models/TemporalWidget.php:442
+#: application/models/TemporalWidget.php:520
+#: application/models/TemporalWidget.php:550
+#: application/models/UtilizationWidget.php:319
+#: application/models/UtilizationWidget.php:340
+#: application/models/UtilizationWidget.php:341
+#: application/models/UtilizationWidget.php:342
+#: application/models/UtilizationWidget.php:343
+#: application/models/UtilizationWidget.php:344
+#: application/models/UtilizationWidget.php:345
+#: application/models/UtilizationWidget.php:346
+#: application/models/UtilizationWidget.php:347
+#: application/models/UtilizationWidget.php:425
+#: application/models/UtilizationWidget.php:455
+msgid "value"
+msgstr "値"
+
+#: application/models/TemporalWidget.php:435
+#: application/models/TemporalWidget.php:436
+#: application/models/TemporalWidget.php:437
+#: application/models/TemporalWidget.php:438
+#: application/models/TemporalWidget.php:439
+#: application/models/TemporalWidget.php:440
+#: application/models/TemporalWidget.php:441
+#: application/models/TemporalWidget.php:442
+#: application/models/UtilizationWidget.php:340
+#: application/models/UtilizationWidget.php:341
+#: application/models/UtilizationWidget.php:342
+#: application/models/UtilizationWidget.php:343
+#: application/models/UtilizationWidget.php:344
+#: application/models/UtilizationWidget.php:345
+#: application/models/UtilizationWidget.php:346
+#: application/models/UtilizationWidget.php:347
+msgid "period"
+msgstr "期間"
+
+#: application/models/TemporalWidget.php:454
+#: application/models/UtilizationWidget.php:359
+msgid "Peak maximum occupancy"
+msgstr "ピーク時の最大使用度"
+
+#: application/models/TemporalWidget.php:456
+#: application/models/TemporalWidget.php:562
+#: application/models/TemporalWidget.php:579
+#: application/models/TemporalWidget.php:618
+#: application/models/TemporalWidget.php:684
+#: application/models/TemporalWidget.php:697
+#: application/models/UtilizationWidget.php:361
+#: application/models/UtilizationWidget.php:467
+#: application/models/UtilizationWidget.php:483
+#: application/models/UtilizationWidget.php:522
+#: application/models/UtilizationWidget.php:535
+#, php-format
+msgid "Computed in "
+msgstr "Computed in "
+
+#: application/models/TemporalWidget.php:504
+#: application/models/TemporalWidget.php:520
+#: application/models/UtilizationWidget.php:409
+#: application/models/UtilizationWidget.php:425
+msgid "Hour"
+msgstr "時間"
+
+#: application/models/TemporalWidget.php:504
+#: application/models/UtilizationWidget.php:409
+msgid "Value"
+msgstr "値"
+
+#: application/models/TemporalWidget.php:504
+#: application/models/TemporalWidget.php:532
+#: application/models/UtilizationWidget.php:409
+#: application/models/UtilizationWidget.php:437
+msgid "Min"
+msgstr "最低"
+
+#: application/models/TemporalWidget.php:504
+#: application/models/TemporalWidget.php:532
+#: application/models/UtilizationWidget.php:409
+#: application/models/UtilizationWidget.php:437
+msgid "Max"
+msgstr "最高"
+
+#: application/models/TemporalWidget.php:520
+#: application/models/TemporalWidget.php:551
+#: application/models/TemporalWidget.php:672
+#: application/models/UtilizationWidget.php:425
+#: application/models/UtilizationWidget.php:456
+msgid "min"
+msgstr "最低"
+
+#: application/models/TemporalWidget.php:520
+#: application/models/TemporalWidget.php:552
+#: application/models/UtilizationWidget.php:425
+#: application/models/UtilizationWidget.php:457
+msgid "max"
+msgstr "最高"
+
+#: application/models/TemporalWidget.php:531
+#: application/models/TemporalWidget.php:546
+#: application/models/TemporalWidget.php:701
+#: application/models/UtilizationWidget.php:436
+#: application/models/UtilizationWidget.php:451
+#: application/models/UtilizationWidget.php:539
+#: application/models/Widgets.php:212
+msgid "Sunday"
+msgstr "日曜日"
+
+#: application/models/TemporalWidget.php:531
+#: application/models/TemporalWidget.php:546
+#: application/models/TemporalWidget.php:701
+#: application/models/UtilizationWidget.php:436
+#: application/models/UtilizationWidget.php:451
+#: application/models/UtilizationWidget.php:539
+#: application/models/Widgets.php:213
+msgid "Monday"
+msgstr "月曜日"
+
+#: application/models/TemporalWidget.php:531
+#: application/models/TemporalWidget.php:546
+#: application/models/TemporalWidget.php:701
+#: application/models/UtilizationWidget.php:436
+#: application/models/UtilizationWidget.php:451
+#: application/models/UtilizationWidget.php:539
+#: application/models/Widgets.php:214
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: application/models/TemporalWidget.php:531
+#: application/models/TemporalWidget.php:546
+#: application/models/TemporalWidget.php:701
+#: application/models/UtilizationWidget.php:436
+#: application/models/UtilizationWidget.php:451
+#: application/models/UtilizationWidget.php:539
+#: application/models/Widgets.php:215
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: application/models/TemporalWidget.php:531
+#: application/models/TemporalWidget.php:546
+#: application/models/TemporalWidget.php:701
+#: application/models/UtilizationWidget.php:436
+#: application/models/UtilizationWidget.php:451
+#: application/models/UtilizationWidget.php:539
+#: application/models/Widgets.php:216
+msgid "Thursday"
+msgstr "木曜日"
+
+#: application/models/TemporalWidget.php:531
+#: application/models/TemporalWidget.php:546
+#: application/models/TemporalWidget.php:701
+#: application/models/UtilizationWidget.php:436
+#: application/models/UtilizationWidget.php:451
+#: application/models/UtilizationWidget.php:539
+#: application/models/Widgets.php:217
+msgid "Friday"
+msgstr "金曜日"
+
+#: application/models/TemporalWidget.php:531
+#: application/models/TemporalWidget.php:546
+#: application/models/TemporalWidget.php:701
+#: application/models/UtilizationWidget.php:436
+#: application/models/UtilizationWidget.php:451
+#: application/models/UtilizationWidget.php:539
+#: application/models/Widgets.php:218
+msgid "Saturday"
+msgstr "土曜日"
+
+#: application/models/TemporalWidget.php:532
+#: application/models/UtilizationWidget.php:437
+msgid "Taux"
+msgstr "割合"
+
+#: application/models/TemporalWidget.php:571
+#: application/models/UtilizationWidget.php:475
+msgid "Graduated per hour"
+msgstr "一時間刻みの目盛り"
+
+#: application/models/TemporalWidget.php:571
+#: application/models/UtilizationWidget.php:475
+msgid "Graduated per minute"
+msgstr "分刻みの目盛り"
+
+#: application/models/TemporalWidget.php:587
+#: application/models/UtilizationWidget.php:491
+msgid "Continuous sitting durations"
+msgstr "連続着席時間"
+
+#: application/models/TemporalWidget.php:590
+#: application/models/TemporalWidget.php:637
+#: application/models/UtilizationWidget.php:494
+msgid " - consolidated by group"
+msgstr " - グループ別で統合"
+
+#: application/models/TemporalWidget.php:594
+#: application/models/TemporalWidget.php:641
+#: application/models/UtilizationWidget.php:498
+msgid " - consolidated by chairs"
+msgstr " - 椅子別で統合"
+
+#: application/models/TemporalWidget.php:598
+#: application/models/TemporalWidget.php:645
+#: application/models/UtilizationWidget.php:502
+msgid " - consolidated by zones"
+msgstr " - ゾーン別で統合"
+
+#: application/models/TemporalWidget.php:601
+#: application/models/TemporalWidget.php:648
+#: application/models/UtilizationWidget.php:505
+msgid " - consolidated by rooms"
+msgstr " - 部屋別で統合"
+
+#: application/models/TemporalWidget.php:603
+#: application/models/TemporalWidget.php:650
+#: application/models/UtilizationWidget.php:507
+msgid " - consolidated by spaces"
+msgstr " - スペース別で統合"
+
+#: application/models/TemporalWidget.php:634 application/models/Widgets.php:34
+msgid "Occupancy durations"
+msgstr "使用期間"
+
+#: application/models/TemporalWidget.php:690
+#: application/models/UtilizationWidget.php:528
+msgid "Daily average"
+msgstr "一日平均"
+
+#: application/models/TemporalWidget.php:700
+#: application/models/UtilizationWidget.php:538
+msgid "Weekly average"
+msgstr "週刊平均"
+
+#: application/models/User.php:96
+msgid "User's datas had been updated"
+msgstr "ユーザーデータは既に更新済みです"
+
+#: application/models/User.php:105
+msgid ""
+"No data has been updated ! maybe you didn't change anything, or the email or "
+"username is already taken."
+msgstr ""
+"データは更新されていません。変更事項が何も無かった、もしくは、Eメールまたは"
+
+#: application/models/User.php:125
+msgid "The password has been updated"
+msgstr "ユーザーネームが既に使用されています"
+
+#: application/models/User.php:149
+msgid "Your data has been updated"
+msgstr "パスワードが更新されました"
+
+#: application/models/Users.php:56
+msgid "delete"
+msgstr "削除"
+
+#: application/models/Users.php:59 application/views/backend.phtml:68
+msgid "My Profile"
+msgstr "マイプロフィール"
+
+#: application/models/Users.php:108
+msgid "Delete User"
+msgstr "ユーザーを削除"
+
+#: application/models/Users.php:109
+msgid "Are you sure you want to delete this account ?"
+msgstr "このアカウントを削除しますか？"
+
+#: application/models/Users.php:110
+msgid "Confirm"
+msgstr "確認"
+
+#: application/models/Users.php:111 application/models/Widgets.php:104
+#: application/models/Widgets.php:121
+#: application/views/admin/adduser.phtml:121
+#: application/views/admin/edituser.phtml:121
+#: application/views/admin/edituser.phtml:158
+#: application/views/admin/statistics.phtml:34
+#: application/views/owner/editcustomer.phtml:298
+#: application/views/owner/editcustomer.phtml:343
+#: application/views/owner/editcustomer.phtml:387
+#: application/views/owner/editcustomer.phtml:430
+#: application/views/owner/editcustomer.phtml:450
+#: application/views/owner/editcustomer.phtml:467
+#: application/views/profile/index.phtml:101
+#: application/views/profile/index.phtml:137
+#: application/views/superadmin/addmap.phtml:83
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: application/models/Users.php:125
+msgid "You can't delete this user."
+msgstr "このユーザーは削除できません"
+
+#: application/models/UtilizationWidget.php:38
+msgid "1 min"
+msgstr "1分"
+
+#: application/models/UtilizationWidget.php:39
+msgid "5 min"
+msgstr "5分"
+
+#: application/models/UtilizationWidget.php:40
+msgid "10 min"
+msgstr "10分"
+
+#: application/models/UtilizationWidget.php:41
+#: application/models/Widgets.php:19
+msgid "15 min"
+msgstr "15分"
+
+#: application/models/UtilizationWidget.php:42
+#: application/models/Widgets.php:20
+msgid "20 min"
+msgstr "20分"
+
+#: application/models/UtilizationWidget.php:43
+#: application/models/Widgets.php:21
+msgid "30 min"
+msgstr "30分"
+
+#: application/models/UtilizationWidget.php:44
+msgid "45 min"
+msgstr "45分"
+
+#: application/models/UtilizationWidget.php:45
+msgid "1 Hour"
+msgstr "1時間"
+
+#: application/models/UtilizationWidget.php:46
+msgid "1 Hour 30 min"
+msgstr "1時間30分"
+
+#: application/models/UtilizationWidget.php:47
+msgid "2 Hour"
+msgstr "2時間"
+
+#: application/models/UtilizationWidget.php:48
+msgid "4 Hour"
+msgstr "4時間"
+
+#: application/models/UtilizationWidget.php:100
+msgid "Minimum occupation"
+msgstr "最低利用率"
+
+#: application/models/Widgets.php:10
+msgid "Utilization"
+msgstr "利用"
+
+#: application/models/Widgets.php:11
+msgid "Occupancy"
+msgstr "使用度"
+
+#: application/models/Widgets.php:29
+msgid "Normal"
+msgstr "ふつう"
+
+#: application/models/Widgets.php:30
+msgid "Daily"
+msgstr "毎日"
+
+#: application/models/Widgets.php:31
+msgid "Weekly"
+msgstr "週刊"
+
+#: application/models/Widgets.php:32
+msgid "Peak"
+msgstr "ピーク"
+
+#: application/models/Widgets.php:33
+msgid "Sitting Durations"
+msgstr "着席時間"
+
+#: application/models/Widgets.php:50
+msgid "Utilization rate"
+msgstr "利用率"
+
+#: application/models/Widgets.php:86
+msgid "Small"
+msgstr "小"
+
+#: application/models/Widgets.php:87
+msgid "Medium"
+msgstr "中"
+
+#: application/models/Widgets.php:88
+msgid "Large"
+msgstr "大"
+
+#: application/models/Widgets.php:97 application/models/Widgets.php:114
+msgid "Graphic's Name"
+msgstr "グラフ名"
+
+#: application/models/Widgets.php:226
+msgid "From 00h To 01h"
+msgstr "00から01まで"
+
+#: application/models/Widgets.php:227
+msgid "From 01h To 02h"
+msgstr "01から02まで"
+
+#: application/models/Widgets.php:228
+msgid "From 02h To 03h"
+msgstr "02から03まで"
+
+#: application/models/Widgets.php:229
+msgid "From 03h To 04h"
+msgstr "03から04まで"
+
+#: application/models/Widgets.php:230
+msgid "From 04h To 05h"
+msgstr "04から05まで"
+
+#: application/models/Widgets.php:231
+msgid "From 05h To 06h"
+msgstr "05から06まで"
+
+#: application/models/Widgets.php:232
+msgid "From 06h To 07h"
+msgstr "06から07まで"
+
+#: application/models/Widgets.php:233
+msgid "From 07h To 08h"
+msgstr "07から08まで"
+
+#: application/models/Widgets.php:234
+msgid "From 08h To 09h"
+msgstr "08から09まで"
+
+#: application/models/Widgets.php:235
+msgid "From 09h To 10h"
+msgstr "09から10まで"
+
+#: application/models/Widgets.php:236
+msgid "From 10h To 11h"
+msgstr "10から11まで"
+
+#: application/models/Widgets.php:237
+msgid "From 11h To 12h"
+msgstr "11から12まで"
+
+#: application/models/Widgets.php:238
+msgid "From 12h To 13h"
+msgstr "12から13まで"
+
+#: application/models/Widgets.php:239
+msgid "From 13h To 14h"
+msgstr "13から14まで"
+
+#: application/models/Widgets.php:240
+msgid "From 14h To 15h"
+msgstr "14から15まで"
+
+#: application/models/Widgets.php:241
+msgid "From 15h To 16h"
+msgstr "15から16まで"
+
+#: application/models/Widgets.php:242
+msgid "From 16h To 17h"
+msgstr "16から17まで"
+
+#: application/models/Widgets.php:243
+msgid "From 17h To 18h"
+msgstr "17から18まで"
+
+#: application/models/Widgets.php:244
+msgid "From 18h To 19h"
+msgstr "18から19まで"
+
+#: application/models/Widgets.php:245
+msgid "From 19h To 20h"
+msgstr "19から20まで"
+
+#: application/models/Widgets.php:246
+msgid "From 20h To 21h"
+msgstr "20から21まで"
+
+#: application/models/Widgets.php:247
+msgid "From 21h To 22h"
+msgstr "21から22まで"
+
+#: application/models/Widgets.php:248
+msgid "From 22h To 23h"
+msgstr "22から23まで"
+
+#: application/models/Widgets.php:249
+msgid "From 23h To 00h"
+msgstr "23から00まで"
+
+#: application/models/Zone.php:34
+msgid "Zone's name"
+msgstr "ゾーン名"
+
+#: application/plugins/Layout.php:14
+msgid "MySeat.Fr"
+msgstr "MySeat.Fr"
+
+#: application/views/Temporal/index.phtml:21
+#: application/views/index/index.phtml:20
+#: application/views/owner/index.phtml:19
+#: application/views/utilization/index.phtml:21
+msgid "overview & stats"
+msgstr "オーバービューと統計データ"
+
+#: application/views/admin/adduser.phtml:12
+#: application/views/admin/chairs.phtml:17
+#: application/views/admin/editmap.phtml:11
+#: application/views/admin/groups.phtml:17
+#: application/views/admin/maps.phtml:17
+#: application/views/admin/rooms.phtml:17
+#: application/views/admin/spaces.phtml:17
+#: application/views/admin/users.phtml:12
+#: application/views/admin/zones.phtml:17
+#: application/views/authentification/index.phtml:14
+#: application/views/owner/addcustomer.phtml:12
+#: application/views/owner/customers.phtml:11
+#: application/views/superadmin/addmap.phtml:11
+#: application/views/superadmin/editgateway.phtml:11
+#: application/views/superadmin/editmap.phtml:11
+#: application/views/superadmin/editsensor.phtml:11
+#: application/views/superadmin/gateways.phtml:12
+#: application/views/superadmin/maps.phtml:11
+#: application/views/superadmin/sensors.phtml:12
+msgid "Home"
+msgstr "ホーム"
+
+#: application/views/admin/adduser.phtml:30
+msgid "Add a new user"
+msgstr "新規ユーザーを追加"
+
+#: application/views/admin/adduser.phtml:38
+#: application/views/admin/edituser.phtml:42
+#: application/views/admin/users.phtml:41
+#: application/views/profile/index.phtml:34
+msgid "Full Name"
+msgstr "フルネーム"
+
+#: application/views/admin/adduser.phtml:48
+#: application/views/admin/edituser.phtml:54
+#: application/views/admin/users.phtml:50
+msgid "Role"
+msgstr "役割"
+
+#: application/views/admin/adduser.phtml:64
+#: application/views/admin/edituser.phtml:71
+#: application/views/admin/users.phtml:44
+#: application/views/profile/index.phtml:46
+msgid "Username"
+msgstr "ユーザーネーム"
+
+#: application/views/admin/adduser.phtml:74
+#: application/views/admin/adduser.phtml:94
+#: application/views/admin/adduser.phtml:99
+#: application/views/admin/edituser.phtml:93
+#: application/views/owner/addcustomer.phtml:78
+#: application/views/owner/editcustomer.phtml:152
+#: application/views/profile/index.phtml:68
+msgid "Phone Number"
+msgstr "電話番号"
+
+#: application/views/admin/adduser.phtml:84
+#: application/views/admin/edituser.phtml:20
+#: application/views/admin/edituser.phtml:137
+#: application/views/authentification/index.phtml:55
+#: application/views/profile/index.phtml:21
+#: application/views/profile/index.phtml:116
+msgid "Password"
+msgstr "パスワード"
+
+#: application/views/admin/adduser.phtml:104
+#: application/views/admin/edituser.phtml:104
+#: application/views/admin/users.phtml:56
+#: application/views/owner/addcustomer.phtml:88
+#: application/views/owner/customers.phtml:40
+#: application/views/owner/editcustomer.phtml:164
+#: application/views/profile/index.phtml:80
+msgid "Language"
+msgstr "言語"
+
+#: application/views/admin/adduser.phtml:123
+msgid "Add user"
+msgstr "ユーザーを追加"
+
+#: application/views/admin/chairs.phtml:39
+#: application/views/admin/groups.phtml:44
+#: application/views/admin/maps.phtml:39
+#: application/views/admin/rooms.phtml:44
+#: application/views/admin/spaces.phtml:44
+#: application/views/admin/zones.phtml:39
+#: application/views/superadmin/gateways.phtml:34
+#: application/views/superadmin/maps.phtml:33
+#: application/views/superadmin/sensors.phtml:34
+msgid "ID"
+msgstr "ID"
+
+#: application/views/admin/chairsfrommap.phtml:11
+#: application/views/map/live.phtml:15
+#: application/views/superadmin/editchairassignment.phtml:11
+msgid "Map"
+msgstr "マップ"
+
+#: application/views/admin/chairsfrommapedit.phtml:13
+#: application/views/backend.phtml:19 application/views/public-map.phtml:19
+#: application/views/superadmin/editchairassignmentedit.phtml:13
+msgid "MySeat"
+msgstr "MySeat"
+
+#: application/views/admin/editmap.phtml:18
+#: application/views/admin/editmap.phtml:29
+#: application/views/superadmin/editmap.phtml:18
+#: application/views/superadmin/editmap.phtml:29
+msgid "Edit map"
+msgstr "マップを編集"
+
+#: application/views/admin/editmap.phtml:47
+#: application/views/superadmin/editgateway.phtml:108
+#: application/views/superadmin/editmap.phtml:88
+#: application/views/superadmin/editsensor.phtml:47
+msgid "Return"
+msgstr "戻る"
+
+#: application/views/admin/edituser.phtml:15
+msgid "User"
+msgstr "ユーザー"
+
+#: application/views/admin/edituser.phtml:25
+#: application/views/owner/editcustomer.phtml:47
+msgid "Legal Documents"
+msgstr "法律関連書類"
+
+#: application/views/admin/edituser.phtml:82
+#: application/views/admin/users.phtml:47
+#: application/views/authentification/index.phtml:45
+#: application/views/authentification/index.phtml:50
+#: application/views/owner/addcustomer.phtml:68
+#: application/views/owner/editcustomer.phtml:141
+#: application/views/profile/index.phtml:57
+msgid "Email"
+msgstr "Email"
+
+#: application/views/admin/edituser.phtml:147
+#: application/views/profile/index.phtml:126
+msgid "Password confirmation"
+msgstr "パスワード確認"
+
+#: application/views/admin/groups.phtml:35
+msgid "add new group"
+msgstr "新規グループを追加"
+
+#: application/views/admin/maps.phtml:45
+msgid "Privacy"
+msgstr "プライバシー"
+
+#: application/views/admin/maps.phtml:48
+msgid "Direct URL"
+msgstr "ダイレクトアクセスURL"
+
+#: application/views/admin/statistics.phtml:26
+msgid "Update Configuration"
+msgstr "コンフィギュレーションを更新"
+
+#: application/views/admin/statistics.phtml:29
+msgid "Patch data"
+msgstr "パッチデータ"
+
+#: application/views/admin/statistics.phtml:30
+msgid "Patch value"
+msgstr "パッチ値"
+
+#: application/views/admin/statistics.phtml:31
+msgid "Clean data"
+msgstr "データを消去"
+
+#: application/views/admin/statistics.phtml:32
+msgid "Clean value"
+msgstr "値を消去"
+
+#: application/views/admin/statistics.phtml:33
+msgid "Gateway precision"
+msgstr "ゲートウェイ精度"
+
+#: application/views/admin/users.phtml:38
+msgid "ID User"
+msgstr "ID ユーザー"
+
+#: application/views/admin/users.phtml:53
+msgid "Phone"
+msgstr "電話"
+
+#: application/views/admin/users.phtml:59
+msgid "Last Sign in"
+msgstr "最終サインイン"
+
+#: application/views/admin/users.phtml:62
+#: application/views/owner/customers.phtml:49
+#: application/views/superadmin/editgateway.phtml:47
+#: application/views/superadmin/editsensor.phtml:42
+#: application/views/superadmin/gateways.phtml:49
+#: application/views/superadmin/sensors.phtml:50
+msgid "Status"
+msgstr "ステータス"
+
+#: application/views/admin/users.phtml:65
+#: application/views/owner/customers.phtml:52
+msgid "Actions"
+msgstr "アクション"
+
+#: application/views/admin/users.phtml:71
+#: application/views/owner/editcustomer.phtml:16
+#: application/views/superadmin/addmap.phtml:67
+#: application/views/superadmin/editgateway.phtml:88
+#: application/views/superadmin/editmap.phtml:68
+#: application/views/superadmin/editsensor.phtml:46
+#: application/views/superadmin/gateways.phtml:40
+#: application/views/superadmin/maps.phtml:39
+#: application/views/superadmin/sensors.phtml:40
+msgid "Customer"
+msgstr "顧客"
+
+#: application/views/authentificate.phtml:52
+msgid "Sign in to your account"
+msgstr "自分のアカウントにサインイン"
+
+#: application/views/authentificate.phtml:57
+msgid "Error."
+msgstr "エラー."
+
+#: application/views/authentificate.phtml:59
+msgid "Please enter your name and password to log in."
+msgstr "ログインするには名前とパスワードを入力してください。"
+
+#: application/views/authentificate.phtml:66
+#: application/views/authentificate.phtml:107
+msgid "You have some form errors. Please check below."
+msgstr "形式エラーがあります。以下を確認してください。"
+
+#: application/views/authentificate.phtml:80
+msgid "I forgot my password"
+msgstr "パスワードを忘れた"
+
+#: application/views/authentificate.phtml:87
+msgid "Keep me signed in"
+msgstr "サインインをキープする"
+
+#: application/views/authentificate.phtml:90
+#: application/views/authentification/index.phtml:8
+#: application/views/authentification/index.phtml:18
+#: application/views/authentification/index.phtml:31
+msgid "Login"
+msgstr "ログイン"
+
+#: application/views/authentificate.phtml:99
+msgid "Forget Password?"
+msgstr "パスワードをお忘れですか？"
+
+#: application/views/authentificate.phtml:102
+msgid "Enter your e-mail address below to reset your password."
+msgstr "パスワードをリセットするにはEmailアドレスを以下に入力してください。"
+
+#: application/views/authentificate.phtml:117
+msgid "Back"
+msgstr "戻る"
+
+#: application/views/authentificate.phtml:120
+msgid "Submit"
+msgstr "提出"
+
+#: application/views/authentificate.phtml:130
+msgid "http://www.myseat.fr/"
+msgstr "http://www.myseat.fr/"
+
+#: application/views/authentification/index.phtml:71
+msgid "Forgot Your Password ?"
+msgstr "パスワードをお忘れですか？"
+
+#: application/views/authentification/index.phtml:73
+msgid "Resend Your Activation Code ?"
+msgstr "アクティベーションコードを再送しますか？"
+
+#: application/views/backend.phtml:75
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: application/views/backend.phtml:119 application/views/public-map.phtml:74
+msgid "Event Management"
+msgstr "イベント管理"
+
+#: application/views/backend.phtml:128 application/views/public-map.phtml:83
+msgid "Delete Event"
+msgstr "イベントを削除"
+
+#: application/views/backend.phtml:136 application/views/public-map.phtml:91
+msgid "Create"
+msgstr "作成"
+
+#: application/views/owner/addcustomer.phtml:48
+#: application/views/owner/customers.phtml:37
+#: application/views/owner/editcustomer.phtml:96
+msgid "Alias"
+msgstr "Alias"
+
+#: application/views/owner/addcustomer.phtml:58
+#: application/views/owner/editcustomer.phtml:128
+msgid "Contact name"
+msgstr "連絡者名"
+
+#: application/views/owner/addcustomer.phtml:105
+#: application/views/owner/editcustomer.phtml:185
+msgid "TimeZone"
+msgstr "タイムゾーン"
+
+#: application/views/owner/addcustomer.phtml:111
+#: application/views/owner/addcustomer.phtml:143
+#: application/views/owner/editcustomer.phtml:192
+#: application/views/owner/editcustomer.phtml:231
+msgid "- Please Select"
+msgstr "- 次の項目を選択してください："
+
+#: application/views/owner/addcustomer.phtml:128
+#: application/views/owner/editcustomer.phtml:213
+msgid "Address"
+msgstr "住所"
+
+#: application/views/owner/addcustomer.phtml:138
+#: application/views/owner/editcustomer.phtml:224
+msgid "Country"
+msgstr "国"
+
+#: application/views/owner/addcustomer.phtml:155
+#: application/views/owner/editcustomer.phtml:247
+msgid "State"
+msgstr "都道府県"
+
+#: application/views/owner/addcustomer.phtml:176
+#: application/views/owner/editcustomer.phtml:273
+msgid "ZIP Code"
+msgstr "郵便番号"
+
+#: application/views/owner/addcustomer.phtml:187
+#: application/views/owner/addcustomer.phtml:192
+#: application/views/owner/editcustomer.phtml:285
+#: application/views/owner/editcustomer.phtml:292
+msgid "City / Town"
+msgstr "市 / 町"
+
+#: application/views/owner/customers.phtml:31
+msgid "ID Customer"
+msgstr "ID 顧客"
+
+#: application/views/owner/customers.phtml:43
+msgid "Time Zone"
+msgstr "タイムゾーン"
+
+#: application/views/owner/customers.phtml:46
+msgid "Current Time"
+msgstr "現在の時間"
+
+#: application/views/owner/editcustomer.phtml:21
+msgid "Deployment"
+msgstr "配置"
+
+#: application/views/owner/editcustomer.phtml:26
+msgid "Global analysis options"
+msgstr "グローバル分析オプション"
+
+#: application/views/owner/editcustomer.phtml:41
+msgid "Alerts"
+msgstr "警告"
+
+#: application/views/owner/editcustomer.phtml:64
+msgid "Logo"
+msgstr "ロゴ"
+
+#: application/views/owner/editcustomer.phtml:107
+msgid "Template"
+msgstr "テンプレート"
+
+#: application/views/owner/editcustomer.phtml:445
+msgid "Sensor's alerts ?"
+msgstr "センサの警告音設定"
+
+#: application/views/owner/editcustomer.phtml:446
+msgid "Sensor's elapsed time before alerte"
+msgstr "警告音前のセンサ経過時間"
+
+#: application/views/owner/editcustomer.phtml:447
+msgid "Gateway's alerts ?"
+msgstr "ゲートウェイの警告音設定"
+
+#: application/views/owner/editcustomer.phtml:448
+msgid "Gateway's elapsed time before alerte"
+msgstr "警告音前のゲートウェイ経過時間"
+
+#: application/views/owner/editcustomer.phtml:465
+msgid "Deployment dates"
+msgstr "配置日付"
+
+#: application/views/profile/index.phtml:16
+msgid "Profile"
+msgstr "プロフィール"
+
+#: application/views/superadmin/addmap.phtml:47
+#: application/views/superadmin/addmap.phtml:52
+#: application/views/superadmin/editmap.phtml:47
+#: application/views/superadmin/editmap.phtml:52
+#: application/views/superadmin/maps.phtml:45
+msgid "Community ID"
+msgstr "コミュニティID"
+
+#: application/views/superadmin/addmap.phtml:57
+#: application/views/superadmin/addmap.phtml:62
+#: application/views/superadmin/editmap.phtml:58
+#: application/views/superadmin/maps.phtml:42
+msgid "Key"
+msgstr "キー"
+
+#: application/views/superadmin/addmap.phtml:85
+msgid "Add map"
+msgstr "マップを追加"
+
+#: application/views/superadmin/editgateway.phtml:37
+#: application/views/superadmin/gateways.phtml:37
+msgid "Internal name"
+msgstr "内部使用名"
+
+#: application/views/superadmin/editgateway.phtml:67
+#: application/views/superadmin/editsensor.phtml:44
+#: application/views/superadmin/gateways.phtml:43
+#: application/views/superadmin/sensors.phtml:43
+msgid "Mac Address"
+msgstr "Mac Address"
+
+#: application/views/superadmin/editgateway.phtml:77
+#: application/views/superadmin/editsensor.phtml:45
+#: application/views/superadmin/gateways.phtml:46
+#: application/views/superadmin/sensors.phtml:46
+msgid "Mac Address HEX"
+msgstr "Mac Address HEX"
+
+#: application/views/superadmin/editsensor.phtml:40
+#: application/views/superadmin/sensors.phtml:37
+msgid "Sensor's name"
+msgstr "センサ名"
+
+#: application/views/superadmin/editsensor.phtml:43
+msgid "Displacement"
+msgstr "置換"
+
+#: application/views/superadmin/gateways.phtml:68
+#: application/views/superadmin/gateways.phtml:77
+msgid "Undefined"
+msgstr "不定"
+
+#: application/views/superadmin/sensors.phtml:53
+msgid "First communication (UTC)"
+msgstr "初回通信（UTC）"
+
+#: application/views/superadmin/sensors.phtml:56
+msgid "Last communication (UTC)"
+msgstr "最終通信（UTC）"
+
+#~ msgid "Login to your account"
+#~ msgstr "Login to your account"
+
+#~ msgid "Please enter your username and password"
+#~ msgstr "Please enter your username and password"
+
+#~ msgid "Remember me"
+#~ msgstr "Remember me"
+
+#~ msgid "Forgot your password ?"
+#~ msgstr "Forgot your password ?"
+
+#~ msgid "no worries, click"
+#~ msgstr "no worries, click"
+
+#~ msgid "here"
+#~ msgstr "here"
+
+#~ msgid "to reset your password"
+#~ msgstr "to reset your password"
+
+#~ msgid "Don't have an account yet ?"
+#~ msgstr "Don't have an account yet ?"
+
+#~ msgid "Create an account"
+#~ msgstr "Create an account"
+
+#~ msgid "Forget Password ?"
+#~ msgstr "Forget Password ?"
+
+#~ msgid "Enter your e-mail address below to reset your password"
+#~ msgstr "Enter your e-mail address below to reset your password"
+
+#~ msgid "Sign Up"
+#~ msgstr "Sign Up"
+
+#~ msgid "Enter your employeeal details below"
+#~ msgstr "Enter your employeeal details below"
+
+#~ msgid "Website"
+#~ msgstr "Website"
+
+#~ msgid "Re-type Your Password"
+#~ msgstr "Re-type Your Password"
+
+#~ msgid "I agree to the"
+#~ msgstr "I agree to the"
+
+#~ msgid "Terms of Service"
+#~ msgstr "Terms of Service"
+
+#~ msgid "and"
+#~ msgstr "and"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Privacy Policy"
+
+#~ msgid "Sales"
+#~ msgstr "Sales"
+
+#~ msgid "Address email doesn't exist"
+#~ msgstr "Address email doesn't exist"
+
+#~ msgid "Your new password has already been sent to you"
+#~ msgstr "Your new password has already been sent to you"
+
+#~ msgid "Your new password is"
+#~ msgstr "Your new password is"
+
+#~ msgid "Your new password has just been sent to your email address"
+#~ msgstr "Your new password has just been sent to your email address"
+
+#~ msgid "Invalid Link, please contact administrator"
+#~ msgstr "Invalid Link, please contact administrator"
+
+#~ msgid "Warning"
+#~ msgstr "Warning"
+
+#~ msgid "Your Account is Already Active"
+#~ msgstr "Your Account is Already Active"
+
+#~ msgid "Your Account is Now active"
+#~ msgstr "Your Account is Now active"
+
+#~ msgid "Impressions"
+#~ msgstr "Impressions"
+
+#~ msgid "Clicks"
+#~ msgstr "Clicks"
+
+#~ msgid "Costs"
+#~ msgstr "Costs"
+
+#~ msgid "Contact Us"
+#~ msgstr "Contact Us"
+
+#~ msgid "My account"
+#~ msgstr "My account"
+
+#~ msgid "Customer ID"
+#~ msgstr "Customer ID"
+
+#~ msgid "Credit"
+#~ msgstr "Credit"
+
+#~ msgid "Company Name"
+#~ msgstr "Company Name"
+
+#~ msgid "ZIP"
+#~ msgstr "ZIP"
+
+#~ msgid "City"
+#~ msgstr "City"
+
+#~ msgid "Street and number"
+#~ msgstr "Street and number"
+
+#~ msgid "Change password"
+#~ msgstr "Change password"
+
+#~ msgid "Passwords must be at least 8 char"
+#~ msgstr "Passwords must be at least 8 char"
+
+#~ msgid "Wrong password"
+#~ msgstr "Wrong password"
+
+#~ msgid "Passwords don't match"
+#~ msgstr "Passwords don't match"
+
+#~ msgid "New password updated"
+#~ msgstr "New password updated"
+
+#~ msgid "Enter a coupon"
+#~ msgstr "Enter a coupon"
+
+#~ msgid "This coupon is not valid"
+#~ msgstr "This coupon is not valid"
+
+#~ msgid "Make a deposit"
+#~ msgstr "Make a deposit"
+
+#~ msgid "My Balance"
+#~ msgstr "My Balance"
+
+#~ msgid "Logout"
+#~ msgstr "Logout"
+
+#~ msgid "Email Address"
+#~ msgstr "Email Address"
+
+#~ msgid "My Ads"
+#~ msgstr "My Ads"
+
+#~ msgid "Show"
+#~ msgstr "Show"
+
+#~ msgid "My Information"
+#~ msgstr "My Information"
+
+#~ msgid "Finances"
+#~ msgstr "Finances"
+
+#~ msgid "Logged in as"
+#~ msgstr "Logged in as"
+
+#~ msgid "Partners"
+#~ msgstr "Partners"
+
+#~ msgid "Load"
+#~ msgstr "Load"
+
+#~ msgid "Title"
+#~ msgstr "Title"
+
+#~ msgid "Categories"
+#~ msgstr "Categories"
+
+#~ msgid "Action"
+#~ msgstr "Action"
+
+#~ msgid "Title of the ad"
+#~ msgstr "Title of the ad"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "Limit per day"
+#~ msgstr "Limit per day"
+
+#~ msgid "Day"
+#~ msgstr "Day"
+
+#~ msgid "Bid per click"
+#~ msgstr "Bid per click"
+
+#~ msgid "The higher the bid is, the higher the position is"
+#~ msgstr "The higher the bid is, the higher the position is"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "URL (with http://)"
+#~ msgstr "URL (with http://)"
+
+#~ msgid ""
+#~ "To measure your sales success that you achieve through us, we offer a "
+#~ "conversion tracking"
+#~ msgstr ""
+#~ "To measure your sales success that you achieve through us, we offer a "
+#~ "conversion tracking"
+
+#~ msgid ""
+#~ "You simply need to add the following code on the checkout page of your "
+#~ "store"
+#~ msgstr ""
+#~ "You simply need to add the following code on the checkout page of your "
+#~ "store"
+
+#~ msgid "Y-m-d"
+#~ msgstr "Y-m-d"
+
+#~ msgid "yy-mm-dd"
+#~ msgstr "yy-mm-dd"
+
+#~ msgid "Subject"
+#~ msgstr "Subject"
+
+#~ msgid "Please select"
+#~ msgstr "Please select"
+
+#~ msgid "Suggestions"
+#~ msgstr "Suggestions"
+
+#~ msgid "Product Support"
+#~ msgstr "Product Support"
+
+#~ msgid "Your First Name"
+#~ msgstr "Your First Name"
+
+#~ msgid "Last Name"
+#~ msgstr "Last Name"
+
+#~ msgid "Your Last Name"
+#~ msgstr "Your Last Name"
+
+#~ msgid "Your Email Address"
+#~ msgstr "Your Email Address"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "Send"
+#~ msgstr "Send"
+
+#~ msgid ""
+#~ "Your message has been sent, we will be back to you within the next 48 "
+#~ "hours"
+#~ msgstr ""
+#~ "Your message has been sent, we will be back to you within the next 48 "
+#~ "hours"
+
+#~ msgid "You ticket's id is"
+#~ msgstr "You ticket's id is"
+
+#~ msgid "Return to homepage"
+#~ msgstr "Return to homepage"
+
+#~ msgid "Join now"
+#~ msgstr "Join now"
+
+#~ msgid "Amount"
+#~ msgstr "Amount"
+
+#~ msgid "VAT"
+#~ msgstr "VAT"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Payment method"
+#~ msgstr "Payment method"
+
+#~ msgid "SOFORT Banking"
+#~ msgstr "SOFORT Banking"
+
+#~ msgid "Bank transfer"
+#~ msgstr "Bank transfer"
+
+#~ msgid "Method of Payment"
+#~ msgstr "Method of Payment"
+
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#~ msgid "Successful"
+#~ msgstr "Successful"
+
+#~ msgid "Pending"
+#~ msgstr "Pending"
+
+#~ msgid "Failed"
+#~ msgstr "Failed"
+
+#~ msgid "Old password"
+#~ msgstr "Old password"
+
+#~ msgid "New password"
+#~ msgstr "New password"
+
+#~ msgid "New password confirmation"
+#~ msgstr "New password confirmation"
+
+#~ msgid "Startseite"
+#~ msgstr "Startseite"

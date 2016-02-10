@@ -1,0 +1,256 @@
+<?php
+$translate = Yaf\Registry::get("translate");
+$AdminModel = new AdminModel();
+$session = SessionModel::getInstance();
+
+?>
+
+<style>
+    .info {
+        display: inline-block;
+        position: relative;
+        float: right;
+        width: 30px;
+        border-left: 1px solid #CDCDCD;
+
+    }
+
+    .info img {
+        vertical-align: text-bottom;
+
+    }
+
+    .info a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+    }
+
+    .info a:hover {
+    }
+
+    .info .dropdown {
+        min-width: 350px;
+        top: 26px;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        right: -15px;
+        border: solid 1px rgb(202, 201, 208);
+        border-radius: 5px;
+        background-color: white;
+        padding-bottom: 10px;
+    }
+
+    .info:hover .dropdown {
+        display: block;
+    }
+
+    .info .dropdown li {
+        display: block;
+    }
+
+    .info_1 {
+        display: inline-block;
+        position: relative;
+        float: right;
+        width: 30px;
+        margin-right: 10px;
+        border-left: 1px solid #CDCDCD;
+    }
+
+    .info_1 img {
+        vertical-align: text-bottom;
+
+    }
+
+    .info_1 a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+    }
+
+    .info_1 a:hover {
+    }
+
+    .info_1 .dropdown {
+        min-width: 350px;
+        top: 26px;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        right: 0;
+        border: solid 1px rgb(202, 201, 208);
+        border-radius: 5px;
+        background-color: white;
+        padding-bottom: 10px;
+    }
+
+    .info_1:hover .dropdown {
+        display: block;
+    }
+
+    .info_1 .dropdown li {
+        display: block;
+    }
+
+    .info_2 {
+        float: right;
+        margin-top: -2px;
+        margin-right: 10px;
+    }
+
+
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <ol class="breadcrumb">
+                <li>
+                    <i class="clip-home-3"></i>
+                    <a href="/">
+                        <?= $translate->_("Dashboard"); ?>
+                    </a>
+                </li>
+            </ol>
+            <div class="page-header">
+                <h1><?= $translate->_("Dashboard"); ?>
+                    <small> <?= $translate->_("overview & stats"); ?></small>
+                </h1>
+            </div>
+        </div>
+        <?php
+        $maps = MapModel::getAllMap();
+
+        foreach ($maps as $map) {
+            $empty = 0;
+            $occupied = 0;
+            $all = 0;
+            $chairs = MapModel::getchairs($map->id);
+            foreach ($chairs['Chairs'] as $chair) {
+                if ($chair['t'] == "#green") {
+                    $empty++;
+                } else {
+                    $occupied++;
+                }
+            }
+            if ($map->key == "svg") {
+                ?>
+                <div class="col-md-8 map_container_lite" id_map="<?= $map->id ?>" real_id_map="<?= $map->id ?>">
+                    <div class="panel panel-default" style="position: static; zoom: 1;">
+                        <div class="panel-heading">
+                            <i class="fa clip-map"></i>
+                            <span class="map_title"><?= $map->name ?></span>
+                        </div>
+                        <div class="panel-body" style="display: block;">
+                            <iframe
+                                src="/Map/ShowAdvanced/Alias/<?= preg_replace("/[^a-zA-Z0-9]+/", "_", $map->name) . "_" . $map->id ?>"
+                                class="col-sm-12" id="mapElement" frameBorder="0">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <?php
+            } else {
+
+                ?>
+                <div class="col-md-12 map_container_lite" id_map="<?= $map->id ?>" real_id_map="<?= $map->id ?>">
+                    <div class="panel panel-default" style="position: static; zoom: 1;">
+                        <div class="panel-heading">
+                            <i class="fa clip-map"></i>
+                            <span class="map_title"><?= $map->name ?></span>
+
+
+                            <div class="info">
+                                <a href="#"><i class="fa fa-info-circle fa-lg " style="float:right;"></i></a>
+
+                                <div class="dropdown">
+                                    <div class="col-sm-12 text-small">
+                                        <h3><?= $translate->_("Use the map") ?> </h3>
+                                        <span style="text-align: justify;">
+                                            <?= $translate->_("This map shows, in red, seats that are recording activity. Green seats are not occupied. Occupancy statuses are updated 10 seconds after a seat detects an activity and 10 minutes after the seat detects an inactivity"); ?>
+                                        </span>
+
+                                        <div class="col-sm-12 no-padding margin-left-none marginTop10 padingT15">
+                                                    <span style="font-size: small;">
+                                                        <img src="/general/assets/images/green_.png"> <?= $translate->_("Empty seat") ?>
+                                                    </span>
+                                        </div>
+                                        <div class="col-sm-12 no-padding margin-left-none marginTop10 padingT15 ">
+                                                    <span style="font-size: small; line-height: 17px;">
+                                                        <img src="/general/assets/images/red_.png"> <?= $translate->_("Occupied seat") ?>
+                                                    </span>
+                                        </div>
+                                        <div class="col-sm-12 no-padding margin-left-none marginTop10 padingT15 ">
+                                                <span style="font-size: small; line-height: 17px;">
+                                                    <img src="/general/assets/images/info_25.png" style="width: 18px"> <?= $translate->_("Ambients Data ") ?> <i style="font-size: x-small">(<?= $translate->_("clickable") ?>)</i>
+                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info_1">
+                                <a href="#"><i class="fa fa-bar-chart-o fa-lg " style="float:right;"></i></a>
+
+                                <div class="dropdown">
+                                    <div class="col-sm-12 text-small">
+                                        <h3><?= $translate->_("Seat's occupancy in real time") ?> </h3>
+
+                                        <div class="col-sm-12 no-padding margin-left-none marginTop10 padingT15">
+                                                    <span style="font-size: small;">
+                                                        <img src="/general/assets/images/green_.png"> <?= $empty ?> <?= $translate->_("out of") ?>  <?= $empty + $occupied ?> <?= $translate->_("Empty seats") ?>
+                                                    </span>
+                                        </div>
+                                        <div class="col-sm-12 no-padding margin-left-none marginTop10 padingT15 ">
+                                                    <span style="font-size: small; line-height: 17px;">
+                                                        <img src="/general/assets/images/red_.png"> <?= $occupied ?> <?= $translate->_("out of") ?> <?= $empty + $occupied ?> <?= $translate->_("Occupied seats") ?>
+                                                    </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php
+                            if (CUSTOMER_ID == 13 || CUSTOMER_ID == 4) {
+                                ?>
+                                <div class="info_2">
+                                    <label for="lname" class=" control-label"> <?= $translate->_('Gradual Color'); ?> :</label>
+
+                                    <div class="make-switch switch-mini switch-info" id='switch_1' data-on="info" data-off="success">
+                                        <input type='checkbox' type="submit" name='my-checkbox' value='1' class='a_element' onchange="colorMode()">
+                                    </div>
+                                </div>
+                                <?php
+                            }
+                            ?>
+
+
+                        </div>
+                        <div class="panel-body" style="display: block;">
+                            <iframe
+                                src="/Map/ShowAdvanced/Alias/<?= preg_replace("/[^a-zA-Z0-9]+/", "_", $map->name) . "_" . $map->id ?>"
+                                class="col-sm-12" id="mapElement" frameBorder="0">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <?php
+            }
+            ?>
+            <?php
+        }
+        ?>
+    </div>
+</div>
+<script>
+    var url1 = "/Map/ShowAdvanced/Alias/<?= preg_replace("/[^a-zA-Z0-9]+/", "_", $map->name) . "_" . $map->id ?>";
+    var url2 = "/Map/ShowAdvanced/Alias/<?= preg_replace("/[^a-zA-Z0-9]+/", "_", $map->name) . "_" . $map->id ?>/color/1";
+    function colorMode() {
+        if (jQuery("[name='my-checkbox']").is(':checked')) {
+            jQuery("#mapElement").attr("src", url2);
+        } else {
+            jQuery("#mapElement").attr("src", url1);
+        }
+
+    }
+</script>

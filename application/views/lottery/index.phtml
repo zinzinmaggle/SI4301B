@@ -1,0 +1,52 @@
+
+<div class="row">
+    <?php
+    foreach ($this->$results as $key => $value){
+        foreach ($value as $key => $lottery){
+    ?>
+    <div class="col-md-4">
+        <div class="container-lottery">
+            <div class="row">
+                <div class="col-md-12">
+
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-6" class="left-container-lottery">
+                        <p>
+                            <?php
+                        echo '<span class=\'label_lottery\'><i class=\'fa fa-asterisk\'></i> Identfier : </span>'.$lottery->sub_id.'<br>';
+                        echo '<span class=\'label_lottery\'><i class=\'fa fa-ticket\'></i> Entry :  </span>'.$lottery->entry.'<br>';
+                            ?>
+                        </p>
+                    </div>
+                    <div class="col-md-6"  class="right-container-lottery">
+
+                    </div>
+                    <p>
+                        <?php
+                        echo '<span class=\'label_lottery\'><i class=\'fa fa-info-circle\'></i> Skin :  </span>'.$lottery->item_description.'<br>';
+                        echo '<span class=\'label_lottery\'><i class=\'fa fa-info-circle\'></i> State :  </span>'.$lottery->item_state.'<br>';
+                        echo '<span class=\'label_lottery\'><i class=\'fa fa-money\'></i> Value on market :  </span>'.$lottery->item_value.'<br>';
+                        ?>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+            <?php
+
+
+
+
+
+
+        }
+
+    }
+
+
+    ?>
+
+</div>
+
+

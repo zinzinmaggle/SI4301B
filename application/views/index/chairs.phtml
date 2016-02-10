@@ -1,0 +1,57 @@
+<?php
+
+
+$translate = Yaf\Registry::get("translate");
+$session = SessionModel::getInstance();
+
+?>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <ol class="breadcrumb">
+                <li>
+                    <i class="clip-home-3"></i>
+                    <a href="/">
+                        <?= $translate->_("Home"); ?>
+                    </a>
+                </li>
+                <li>
+                    <?= $translate->_("Dashboard"); ?>
+                </li>
+                <li class="active">
+                    <?= $translate->_("Chairs"); ?>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <br/>
+
+    <div class="col-sm-12">
+        <div class="panel  panel-default">
+            <div class="panel-heading">
+                <i class="clip-users"></i>
+                <?= $translate->_("Chairs"); ?>
+            </div>
+            <div class="panel-body">
+                <table id="Chairs_table"
+                       class="table table-striped table-bordered table-hover table-full-width dataTable table-condensed small">
+                    <thead>
+                    <tr>
+                        <th>
+                            <?= $translate->_('Name') ?>
+                        </th>
+                        <th>
+                            <?= $translate->_('Status') ?>
+                        </th>
+
+
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

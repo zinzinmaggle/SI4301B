@@ -1,0 +1,684 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plaindesk\n"
+"POT-Creation-Date: 2014-01-08 11:48+0100\n"
+"PO-Revision-Date: 2014-01-08 11:48+0100\n"
+"Last-Translator: Mouhcine <mouhcine.benchekroun@gmail.com>\n"
+"Language-Team: Mouhcine <mouhcine.benchekroun@gmail.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: C:\\Users\\mouhcine\\Documents\\GitHub\\PlainDesk\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: application\n"
+
+#: application/controllers/Authentification.php:26
+msgid "The username or password you entered is incorrect"
+msgstr ""
+
+#: application/models/Languages.php:8 application/views/profile/index.phtml:79
+msgid "English"
+msgstr "Englisch"
+
+#: application/models/Languages.php:9
+msgid "French"
+msgstr "Französisch"
+
+#: application/models/Languages.php:10
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: application/models/Languages.php:11
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: application/models/Languages.php:12
+msgid "All languages"
+msgstr "Alle Sprachen"
+
+#: application/views/authentification.phtml:69
+#: application/views/profile/index.phtml:23
+msgid "Username"
+msgstr "Mein Guthaben"
+
+#: application/views/authentification.phtml:71
+msgid "Enter your username"
+msgstr ""
+
+#: application/views/authentification.phtml:76
+#: application/views/profile/index.phtml:43
+msgid "Password"
+msgstr "Passwort"
+
+#: application/views/authentification.phtml:80
+msgid "Forgot your password"
+msgstr "Passwort vergessen"
+
+#: application/views/authentification.phtml:86
+msgid "Keep me logged in"
+msgstr "Angemeldet bleiben"
+
+#: application/views/authentification.phtml:88
+msgid "Login"
+msgstr "Anmelden"
+
+#: application/views/authentification.phtml:139
+#, fuzzy
+msgid "Please provide a username"
+msgstr "Bitte überprüfen Sie Ihr Passwort"
+
+#: application/views/authentification.phtml:140
+msgid "Username is more that 4 chars"
+msgstr ""
+
+#: application/views/authentification.phtml:143
+msgid "Please provide a password"
+msgstr "Bitte überprüfen Sie Ihr Passwort"
+
+#: application/views/authentification.phtml:144
+msgid "Password is more that 6 chars"
+msgstr "Das Passwort muss mindestens 6 Zeichen lang sein"
+
+#: application/views/layout.phtml:194
+msgid "Edit profile"
+msgstr "Profil bearbeiten"
+
+#: application/views/index/index.phtml:11
+#, fuzzy
+msgid "Ticket's number"
+msgstr "Kontonummer"
+
+#: application/views/index/index.phtml:17
+#, fuzzy
+msgid "Contains"
+msgstr "Kontakt"
+
+#: application/views/profile/index.phtml:11
+msgid "User profile"
+msgstr "Benutzerprofil"
+
+#: application/views/profile/index.phtml:16
+msgid "Avatar"
+msgstr "Avatar"
+
+#: application/views/profile/index.phtml:29
+msgid "Full name"
+msgstr "Name"
+
+#: application/views/profile/index.phtml:36
+msgid "Email"
+msgstr "E-Mail"
+
+#: application/views/profile/index.phtml:46
+msgid "Enter your password again"
+msgstr "Kennwort erneut eingeben"
+
+#: application/views/profile/index.phtml:51
+msgid "Gender"
+msgstr "Geschlecht"
+
+#: application/views/profile/index.phtml:56
+msgid "Male"
+msgstr "Männlich"
+
+#: application/views/profile/index.phtml:60
+msgid "Female"
+msgstr "Weiblich"
+
+#: application/views/profile/index.phtml:68
+msgid "More info"
+msgstr "Mehr Informationen"
+
+#: application/views/profile/index.phtml:77
+msgid "Languages"
+msgstr "Sprachen"
+
+#: application/views/profile/index.phtml:85
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: application/views/profile/index.phtml:86
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#~ msgid "Ad statistics"
+#~ msgstr "Statistik"
+
+#~ msgid "All Ads"
+#~ msgstr "Alle Kampagnen"
+
+#~ msgid "Sales"
+#~ msgstr "Verkäufe"
+
+#~ msgid "Balance"
+#~ msgstr "Guthaben"
+
+#~ msgid "Impressions"
+#~ msgstr "Impressionen"
+
+#~ msgid "Clicks"
+#~ msgstr "Klicks"
+
+#~ msgid "Costs"
+#~ msgstr "Kosten"
+
+#~ msgid "Customer ID"
+#~ msgstr "Benutzer ID"
+
+#~ msgid "Success"
+#~ msgstr "Erfolgreich"
+
+#~ msgid "Credit"
+#~ msgstr "Guthaben"
+
+#~ msgid "Company Name"
+#~ msgstr "Firmenname"
+
+#~ msgid "Country"
+#~ msgstr "Land"
+
+#~ msgid "ZIP"
+#~ msgstr "PLZ"
+
+#~ msgid "City"
+#~ msgstr "Ort"
+
+#~ msgid "Street and number"
+#~ msgstr "Straße und Hausnummer"
+
+#~ msgid "Return"
+#~ msgstr "zurückkehren\t"
+
+#~ msgid "Update"
+#~ msgstr "Aktualisieren"
+
+#~ msgid "Ads"
+#~ msgstr "Meine Anzeigen"
+
+#~ msgid "Error"
+#~ msgstr "Fehler"
+
+#~ msgid "Limit per day"
+#~ msgstr "Limit pro Tag"
+
+#~ msgid "Bid per click"
+#~ msgstr "Gebot pro klick"
+
+#~ msgid "Edit Ad"
+#~ msgstr "Anzeige bearbeiten"
+
+#~ msgid "Create an ad"
+#~ msgstr "Erstellen Sie eine Anzeige"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistik"
+
+#~ msgid "Track links"
+#~ msgstr "Conversion tracking"
+
+#~ msgid "You must accept Terms of Services to sign up"
+#~ msgstr "Bitte aktzeptieren Sie unsere AGB's"
+
+#~ msgid "Company's name can't be empty"
+#~ msgstr "Bitte tragen Sie einen Firmenname ein"
+
+#~ msgid "Passwords don't match"
+#~ msgstr "Die Passwörter stimmen nicht überein"
+
+#~ msgid "Confirmation"
+#~ msgstr "Erfolgreich"
+
+#~ msgid "A confirmation email will be sent to your email"
+#~ msgstr "Wir haben Ihnen eine Bestätigungsemail gesendet."
+
+#~ msgid "Thank you for your registration"
+#~ msgstr "Bitte aktivieren Sie Ihren Account"
+
+#~ msgid "Welcome to"
+#~ msgstr "Willkommen bei"
+
+#~ msgid "please click the link below to enable your account"
+#~ msgstr ""
+#~ "Bitte klicken Sie auf den folgenden Link um Ihren Account zu aktivieren"
+
+#~ msgid "Here"
+#~ msgstr "Hier"
+
+#~ msgid "Validation E-mail"
+#~ msgstr "Account akitivieren"
+
+#~ msgid "This email has already been registered"
+#~ msgstr "Diese Email wurde bereits registriert"
+
+#~ msgid "Address email doesn't exist"
+#~ msgstr "E-Mail-Adresse existiert nicht"
+
+#~ msgid "Your new password has already been sent to you"
+#~ msgstr "Ihr neues Passwort wurde bereits gesendet"
+
+#~ msgid "Reset password"
+#~ msgstr "Passwort zurücksetzen"
+
+#~ msgid "Your new password has just been sent to your email address"
+#~ msgstr "Ihr neues Passwort wurde soeben an Ihre Email Adresse gesendet"
+
+#~ msgid "Wrong username or password"
+#~ msgstr "Falscher Benutzername oder Passwort"
+
+#~ msgid "Sign Up"
+#~ msgstr "Neu anmelden"
+
+#~ msgid "Invalid Link, please contact administrator"
+#~ msgstr "Ungültiger Link, bitte kontaktieren Sie den Admin"
+
+#~ msgid "Warning"
+#~ msgstr "Warnung"
+
+#~ msgid "Your Account is Already Active"
+#~ msgstr "Ihr Account wurde bereits aktiviert"
+
+#~ msgid "Your Account is Now active"
+#~ msgstr "Ihr Account ist jetzt aktiviert"
+
+#~ msgid "Y-m-d"
+#~ msgstr "d-m-d"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Home"
+#~ msgstr "Startseite"
+
+#~ msgid "Terms of Service"
+#~ msgstr "AGB's"
+
+#~ msgid "My account"
+#~ msgstr "Mein Konto"
+
+#~ msgid "Change password"
+#~ msgstr "Passwort ändern"
+
+#~ msgid "Wrong password"
+#~ msgstr "Falsches Passwort"
+
+#~ msgid "New password updated"
+#~ msgstr "Neues Passwort erfolgreich übernommen"
+
+#~ msgid "Enter a coupon"
+#~ msgstr "Gutschein eintragen"
+
+#~ msgid "This coupon is not valid"
+#~ msgstr "Dieser Gutschein ist nicht gültig"
+
+#~ msgid "Make a deposit"
+#~ msgstr "Geld einzahlen"
+
+#~ msgid "Transaction failed"
+#~ msgstr "Transaktion fehlgeschlagen"
+
+#~ msgid "Withdraw funds"
+#~ msgstr "Guthaben auszahlen"
+
+#~ msgid "The withdrawal amount cannot be null"
+#~ msgstr "Der Betrag darf nicht 0 sein"
+
+#~ msgid "You don't have enough funds "
+#~ msgstr "Sie haben nicht genug Guthaben"
+
+#~ msgid "The receiver field can't be empty "
+#~ msgstr "Das Feld \"Empfänger\" darf nicht leer sein."
+
+#~ msgid "The account number field can't be empty "
+#~ msgstr "Bitte überprüfen Sie die Kontonummer"
+
+#~ msgid "The bank code field can't be empty "
+#~ msgstr "Bitte überprüfen sie die Bankleitzahl"
+
+#~ msgid "The bank field can't be empty "
+#~ msgstr "Bitte geben Sie den Banknamen an"
+
+#~ msgid "Request failed"
+#~ msgstr "Anfrage fehlgeschlagen"
+
+#~ msgid "Withdrawal"
+#~ msgstr "Auszahlen"
+
+#~ msgid "Bills"
+#~ msgstr "Rechnung"
+
+#~ msgid "Bank transfer"
+#~ msgstr "Banküberweisung"
+
+#~ msgid "Payment"
+#~ msgstr "Zahlungsmethode"
+
+#~ msgid "My Balance"
+#~ msgstr "Mein Guthaben"
+
+#~ msgid "You are receiving this email because the daily budget of the ad"
+#~ msgstr "Sie erhalten diese Email, da Ihre Tagesbudget für die Werbeanzeige"
+
+#~ msgid "has been reached"
+#~ msgstr "erreicht wurde"
+
+#~ msgid ""
+#~ "If you want your ad to get displayed again, please increase your daily "
+#~ "budget"
+#~ msgstr ""
+#~ "Falls die Werbeanzeige weiterhin geschaltet werden soll, müssen Sie das "
+#~ "Tagesbudget erhöhen"
+
+#~ msgid "Daily budget"
+#~ msgstr "Limit pro Tag"
+
+#~ msgid ""
+#~ "You are receiving this email because none of your ads are displaying "
+#~ "anymore. Reason: Your balance has been used"
+#~ msgstr ""
+#~ "Sie erhalten diese Email, da keine Ihrer Werbeanzeigen mehr geschaltet "
+#~ "wird. Grund: Ihr Guthaben ist aufgebraucht"
+
+#~ msgid ""
+#~ "Please login into your account and load your balance. Your ads will "
+#~ "continue to display once your account has been loaded"
+#~ msgstr ""
+#~ "Bitte loggen Sie sich ein um Guthaben aufzuladen. Sobald das Guthaben auf "
+#~ "Ihrem Account ist, werden die Anzeigen automatisch wieder geschalten"
+
+#~ msgid "Create"
+#~ msgstr "Erstellen"
+
+#~ msgid "Logout"
+#~ msgstr "Ausloggen"
+
+#~ msgid "Email Address"
+#~ msgstr "E-Mail-Adresse"
+
+#~ msgid "Imprint"
+#~ msgstr "Impressum"
+
+#~ msgid "All rights reserved"
+#~ msgstr "Alle Rechte vorbehalten"
+
+#~ msgid "Manage Ads"
+#~ msgstr "Anzeigen verwalten"
+
+#~ msgid "Show"
+#~ msgstr "Übersicht"
+
+#~ msgid "My Information"
+#~ msgstr "Meine Informationen"
+
+#~ msgid "Finances"
+#~ msgstr "Finanzen"
+
+#~ msgid "My Bills"
+#~ msgstr "Meine Rechnungen"
+
+#~ msgid "Logged in as"
+#~ msgstr "Eingeloggt als"
+
+#~ msgid "Partners"
+#~ msgstr "Partner"
+
+#~ msgid "Load"
+#~ msgstr "Aufladen"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Categories"
+#~ msgstr "Kategorien"
+
+#~ msgid "Action"
+#~ msgstr "Aktion"
+
+#, fuzzy
+#~ msgid "User information"
+#~ msgstr "Benutzer Informationen"
+
+#~ msgid "Amount"
+#~ msgstr "Betrag"
+
+#~ msgid "VAT"
+#~ msgstr "Umsatzsteuer"
+
+#~ msgid "Method of Payment"
+#~ msgstr "Zahlungsart"
+
+#~ msgid "Successful"
+#~ msgstr "Erfolgreich"
+
+#~ msgid "Pending"
+#~ msgstr "Ausstehend"
+
+#~ msgid "Failed"
+#~ msgstr "Fehlgeschlagen"
+
+#~ msgid "Title of the ad"
+#~ msgstr "Titel der Werbeanzeige"
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Day"
+#~ msgstr "Tag"
+
+#~ msgid "The higher the bid is, the higher the position is"
+#~ msgstr "Umso höher das Gebot, umso höher die Position"
+
+#~ msgid "Image"
+#~ msgstr "Bild"
+
+#~ msgid "User Information"
+#~ msgstr "Benutzer Informationen"
+
+#~ msgid "Summary"
+#~ msgstr "Resümee"
+
+#~ msgid "Monthly statistics"
+#~ msgstr "Monatliche Statistiken"
+
+#~ msgid "From :"
+#~ msgstr "Von :"
+
+#~ msgid "To :"
+#~ msgstr "Bis :"
+
+#~ msgid "Submit"
+#~ msgstr "Absenden"
+
+#, fuzzy
+#~ msgid "Statistics chart"
+#~ msgstr "Statistik"
+
+#, fuzzy
+#~ msgid "Statistics table"
+#~ msgstr "Statistik"
+
+#~ msgid "URL (with http://)"
+#~ msgstr "URL (mit http://)"
+
+#~ msgid "Click"
+#~ msgstr "Klick"
+
+#~ msgid "Edit an ad"
+#~ msgstr "Anzeige bearbeiten"
+
+#~ msgid ""
+#~ "You are about to update this ad, if you change the url, content or the "
+#~ "title your ad must be revalidated"
+#~ msgstr ""
+#~ "Sie sind dabei die Anzeige zu verändern. DIe Anzeige muss erneut von "
+#~ "einem Administrator übverprüft werden, falls Sie die URL, den Titel oder "
+#~ "den Text ändern"
+
+#~ msgid "Do you want to proceed"
+#~ msgstr "Fortsetzen"
+
+#~ msgid ""
+#~ "You have the option conversions (sales) and leads (newsletter "
+#~ "registrations, etc.) to pursue. Please include the relevant code in the "
+#~ "\"success page\", which sees a customer after the sale or after "
+#~ "registration, a. If you inquire about specific shop system or have a "
+#~ "similar, we are happy to help"
+#~ msgstr ""
+#~ "Sie haben die Möglichkeit Conversions (Verkäufe) und Leads (Newsletter "
+#~ "Anmeldungen etc.) zu verfolgen. Bitte fügen Sie dazu den jeweiligen Code "
+#~ "in die „Erfolgsseite“, die ein Kunde nach dem Verkauf oder nach der "
+#~ "Anmeldung sieht, ein. Sollten Sie fragen zu bestimmten Shopsystem oder "
+#~ "ähnlichem haben, so helfen wir Ihnen gerne weiter"
+
+#, fuzzy
+#~ msgid "Ads statistics"
+#~ msgstr "Statistik"
+
+#~ msgid "yy-mm-dd"
+#~ msgstr "dd-mm-yy"
+
+#~ msgid "Your email adress"
+#~ msgstr "Ihre E-Mail-Adresse"
+
+#~ msgid "Min. 8 Characters"
+#~ msgstr "Mindestens 8 Zeichen"
+
+#~ msgid "Remember Me"
+#~ msgstr "Angemeldet bleiben"
+
+#~ msgid "My company"
+#~ msgstr "Musterfirma"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "I agree all your"
+#~ msgstr "Ich aktzeptiere die"
+
+#~ msgid "Return to homepage"
+#~ msgstr "Zurück zur Startseite"
+
+#~ msgid "Subject"
+#~ msgstr "Thema"
+
+#~ msgid "Please select"
+#~ msgstr "Bitte wählen"
+
+#~ msgid "General Customer Service"
+#~ msgstr "Allgemeine Kundenservice"
+
+#~ msgid "Suggestions"
+#~ msgstr "Vorschläge"
+
+#~ msgid "Product Support"
+#~ msgstr "Produkt-Support"
+
+#~ msgid "First Name"
+#~ msgstr "Vorname"
+
+#~ msgid "Your First Name"
+#~ msgstr "Ihr Vorname"
+
+#~ msgid "Last Name"
+#~ msgstr "Nachname"
+
+#~ msgid "Your Last Name"
+#~ msgstr "Ihr Nachname"
+
+#~ msgid "Your Email Address"
+#~ msgstr "Ihre E-Mail-Adresse"
+
+#~ msgid "Message"
+#~ msgstr "Nachricht"
+
+#~ msgid "Send"
+#~ msgstr "Absenden"
+
+#~ msgid ""
+#~ "Your message has been sent, we will be back to you within the next 48 "
+#~ "hours"
+#~ msgstr ""
+#~ "Ihre Nachricht wurde gesendet, wir melden uns innerhalb von 48 Stunden "
+#~ "bei Ihnen"
+
+#~ msgid "You ticket's id is"
+#~ msgstr "Ihre Ticket-ID ist"
+
+#~ msgid "Join now"
+#~ msgstr "Jetzt Mitglied werden"
+
+#~ msgid "Learn more"
+#~ msgstr "Erfahren Sie mehr"
+
+#~ msgid "This month"
+#~ msgstr "dieser Monat"
+
+#~ msgid "Today"
+#~ msgstr "Heute"
+
+#~ msgid "Evol"
+#~ msgstr "Entwicklung"
+
+#~ msgid "Number"
+#~ msgstr "Nummer"
+
+#~ msgid "Total"
+#~ msgstr "Gesamt"
+
+#~ msgid "Print"
+#~ msgstr "Drucken"
+
+#~ msgid "Payment method"
+#~ msgstr "Zahlungsmethode"
+
+#~ msgid "SOFORT Banking"
+#~ msgstr "Sofortüberweisung"
+
+#~ msgid "Please transfer the amount of"
+#~ msgstr "Bitte überweisen Sie den Betrag von"
+
+#~ msgid "to"
+#~ msgstr "auf"
+
+#~ msgid "Receiver"
+#~ msgstr "Empfänger"
+
+#~ msgid "Bank code"
+#~ msgstr "Bankleitzahl"
+
+#~ msgid "Bank"
+#~ msgstr "Bank"
+
+#~ msgid "Purpose"
+#~ msgstr "Verwendungszweck"
+
+#~ msgid "Old password"
+#~ msgstr "Altes Passwort"
+
+#~ msgid "New password"
+#~ msgstr "Neues Passwort"
+
+#~ msgid "New password confirmation"
+#~ msgstr "Bitte geben Sie Ihr Passwort erneut ein"
+
+#~ msgid "Make a withdrawal"
+#~ msgstr "Guthaben auszahlen"
+
+#~ msgid ""
+#~ "You simply need to add the following code on the checkout page of your "
+#~ "store"
+#~ msgstr ""
+#~ "Dazu müssen Sie einfach den folgenden Code auf der Bestätigungsseite "
+#~ "Ihres Shops integrieren"
+
+#~ msgid ""
+#~ "To measure your sales success that you achieve through us, we offer a "
+#~ "conversion tracking"
+#~ msgstr ""
+#~ "Um Ihre Verkaufserfolge, die Sie durch uns erreichen, messen zu können, "
+#~ "bieten wir Ihnen ein Conversion-tracking an"
+
+#~ msgid "Startseite"
+#~ msgstr "Startseite"

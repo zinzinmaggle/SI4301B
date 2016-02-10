@@ -1,0 +1,171 @@
+<script src="backend/assets/js/administration-autoform.js"></script>
+<?php
+$session = SessionModel::getInstance();
+
+$items = json_decode(
+    file_get_contents("http://steamcommunity.com/profiles/".$session->steamid."/inventory/json/730/2")
+);
+
+?>
+<legend>Add a lottery</legend>
+
+<div class="row">
+
+
+        <div class="col-md-6">
+
+            <form method="post" class="form-horizontal">
+            <fieldset>
+                <div class="form-group">
+                    <label for="inputID" class="col-lg-2 control-label">ID</label>
+
+                    <div class="col-lg-10">
+                        <input
+                            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center; cursor: auto;"
+                            class="form-control" name="inputID" id="inputID" placeholder="Please enter an ID" type="text">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAmount" class="col-lg-2 control-label">Amount of entry</label>
+
+                    <div class="col-lg-10">
+                        <input
+                            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center; cursor: auto;"
+                            class="form-control" name="inputAmount" id="inputAmount" type="number">
+                    </div>
+                </div>
+                <div class="form-group has-warning">
+                    <label for="inputDescription" class="col-lg-2 control-label">Description</label>
+
+                    <div class="col-lg-10">
+                        <input
+                            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center; cursor: auto;"
+                            class="form-control" name="inputDescription" id="inputDescription" type="text">
+
+
+                    </div>
+                </div>
+                <div class="form-group has-warning">
+                    <label for="inputState" class="col-lg-2 control-label">State</label>
+
+                    <div class="col-lg-10">
+                        <input
+                            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center; cursor: auto;"
+                            class="form-control" name="inputState" id="inputState" type="text">
+
+
+                    </div>
+                </div>
+                <div class="form-group has-warning">
+                    <label for="inputState" class="col-lg-2 control-label">ClassID</label>
+
+                    <div class="col-lg-10">
+                        <input
+                            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center; cursor: auto;"
+                            class="form-control" name="inputClassID" id="inputClassID" type="text">
+
+
+                    </div>
+                </div>
+                <div class="form-group has-warning">
+                    <label for="inputState" class="col-lg-2 control-label">ImageUrl</label>
+
+                    <div class="col-lg-10">
+                        <input
+                            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center; cursor: auto;"
+                            class="form-control" name="inputImageUrl" id="inputImageUrl" type="text">
+
+
+                    </div>
+                </div>
+                <div class="form-group has-warning">
+                    <label for="inputPrice" class="col-lg-2 control-label">Price</label>
+
+                    <div class="col-lg-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">$</span>
+                            <input name="inputPrice" id="inputPrice" class="form-control" type="text">
+                        </div>
+                        <span class="help-block">Please don't fill the 3 last inputs</span>
+                    </div>
+                </div>
+              <!--  <div class="form-group">
+                    <label class="col-lg-2 control-label">End Mode</label>
+
+                    <div class="col-lg-10">
+                        <div class="radio">
+                            <label>
+                                <input name="optionsRadios" id="optionsRadios1" value="true" checked="" type="radio">
+                                Auto-End
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input name="optionsRadios" id="optionsRadios2" value="false" type="radio">
+                                Manual-End
+                            </label>
+                        </div>
+                    </div>
+                </div>-->
+
+                <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                        <button type="reset" class="btn btn-default">Cancel</button>
+                        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Inventory</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="select" class="col-lg-2 control-label">Weapons skin</label>
+
+                        <div class="col-lg-10">
+                            <select class="form-control" id="select">
+                                <?php
+                                foreach ($items->rgDescriptions as $key => $val) {
+
+
+                                    $elements = array("currency" => 3, "appid" => 730, "market_hash_name" => $val->market_hash_name);
+
+                                    $items_price = json_decode(StaticModel::GetUrlContent("http://steamcommunity.com/market/priceoverview/", $elements));
+
+
+
+                                    echo "<option>".$val->market_hash_name." | ".$val->classid." | ".$val->icon_url." | ".$items_price->lowest_price."</option>";
+
+
+                                }
+                                ?>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Sync Inventory</h3>
+                </div>
+                <div class="panel-body">
+                    <form method="post" class="form-horizontal">
+
+
+                        <button type="submit" name="submit" class="btn btn-default"><i class="fa fa-refresh"></i> Sync</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+</div>
+

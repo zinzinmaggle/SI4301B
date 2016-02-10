@@ -1,0 +1,423 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PlainDesk\n"
+"POT-Creation-Date: 2013-12-14 22:18+0100\n"
+"PO-Revision-Date: 2013-12-14 22:19+0100\n"
+"Last-Translator: Mouhcine <mouhcine.benchekroun@gmail.com>\n"
+"Language-Team: Mouhcine <mouhcine.benchekroun@gmail.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: C:\\Users\\mouhcine\\Documents\\NetBeansProjects"
+"\\plaindesk\\PlainDesk\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: application\n"
+
+#: application/layouts/scripts/login.phtml:45
+msgid "Login to your account"
+msgstr "Login to your account"
+
+#: application/layouts/scripts/login.phtml:49
+msgid "Please enter your username and password"
+msgstr "Please enter your username and password"
+
+#: application/layouts/scripts/login.phtml:54
+#: application/layouts/scripts/login.phtml:57
+#: application/layouts/scripts/login.phtml:383
+#: application/layouts/scripts/login.phtml:386
+msgid "Username"
+msgstr "Username"
+
+#: application/layouts/scripts/login.phtml:61
+#: application/layouts/scripts/login.phtml:64
+#: application/layouts/scripts/login.phtml:390
+#: application/layouts/scripts/login.phtml:393
+msgid "Password"
+msgstr "Password"
+
+#: application/layouts/scripts/login.phtml:69
+msgid "Remember me"
+msgstr "Remember me"
+
+#: application/layouts/scripts/login.phtml:71
+msgid "Login"
+msgstr "Login"
+
+#: application/layouts/scripts/login.phtml:75
+msgid "Forgot your password ?"
+msgstr "Forgot your password ?"
+
+#: application/layouts/scripts/login.phtml:77
+msgid "no worries, click"
+msgstr "no worries, click"
+
+#: application/layouts/scripts/login.phtml:77
+msgid "here"
+msgstr "here"
+
+#: application/layouts/scripts/login.phtml:78
+msgid "to reset your password"
+msgstr "to reset your password"
+
+#: application/layouts/scripts/login.phtml:83
+msgid "Don't have an account yet ?"
+msgstr "Don't have an account yet ?"
+
+#: application/layouts/scripts/login.phtml:83
+msgid "Create an account"
+msgstr "Create an account"
+
+#: application/layouts/scripts/login.phtml:90
+msgid "Forget Password ?"
+msgstr "Forget Password ?"
+
+#: application/layouts/scripts/login.phtml:92
+msgid "Enter your e-mail address below to reset your password"
+msgstr "Enter your e-mail address below to reset your password"
+
+#: application/layouts/scripts/login.phtml:102
+#: application/layouts/scripts/login.phtml:414
+msgid "Back"
+msgstr "Back"
+
+#: application/layouts/scripts/login.phtml:104
+msgid "Submit"
+msgstr "Submit"
+
+#: application/layouts/scripts/login.phtml:111
+#: application/layouts/scripts/login.phtml:416
+msgid "Sign Up"
+msgstr "Sign Up"
+
+#: application/layouts/scripts/login.phtml:113
+msgid "Enter your employeeal details below"
+msgstr "Enter your employeeal details below"
+
+#: application/layouts/scripts/login.phtml:116
+#: application/layouts/scripts/login.phtml:119
+msgid "Full Name"
+msgstr "Full Name"
+
+#: application/layouts/scripts/login.phtml:124
+#: application/layouts/scripts/login.phtml:127
+msgid "Email"
+msgstr "Email"
+
+#: application/layouts/scripts/login.phtml:131
+#: application/layouts/scripts/login.phtml:134
+msgid "Website"
+msgstr "Website"
+
+#: application/layouts/scripts/login.phtml:139
+msgid "Country"
+msgstr "Country"
+
+#: application/layouts/scripts/login.phtml:397
+#: application/layouts/scripts/login.phtml:401
+msgid "Re-type Your Password"
+msgstr "Re-type Your Password"
+
+#: application/layouts/scripts/login.phtml:407
+msgid "I agree to the"
+msgstr "I agree to the"
+
+#: application/layouts/scripts/login.phtml:407
+msgid "Terms of Service"
+msgstr "Terms of Service"
+
+#: application/layouts/scripts/login.phtml:407
+msgid "and"
+msgstr "and"
+
+#: application/layouts/scripts/login.phtml:407
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: application/layouts/scripts/login.phtml:425
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#~ msgid "Sales"
+#~ msgstr "Sales"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistics"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Address email doesn't exist"
+#~ msgstr "Address email doesn't exist"
+
+#~ msgid "Your new password has already been sent to you"
+#~ msgstr "Your new password has already been sent to you"
+
+#~ msgid "Your new password is"
+#~ msgstr "Your new password is"
+
+#~ msgid "Success"
+#~ msgstr "Success"
+
+#~ msgid "Your new password has just been sent to your email address"
+#~ msgstr "Your new password has just been sent to your email address"
+
+#~ msgid "Invalid Link, please contact administrator"
+#~ msgstr "Invalid Link, please contact administrator"
+
+#~ msgid "Warning"
+#~ msgstr "Warning"
+
+#~ msgid "Your Account is Already Active"
+#~ msgstr "Your Account is Already Active"
+
+#~ msgid "Your Account is Now active"
+#~ msgstr "Your Account is Now active"
+
+#~ msgid "Impressions"
+#~ msgstr "Impressions"
+
+#~ msgid "Clicks"
+#~ msgstr "Clicks"
+
+#~ msgid "Home"
+#~ msgstr "Home"
+
+#~ msgid "Costs"
+#~ msgstr "Costs"
+
+#~ msgid "Contact Us"
+#~ msgstr "Contact Us"
+
+#~ msgid "My account"
+#~ msgstr "My account"
+
+#~ msgid "Customer ID"
+#~ msgstr "Customer ID"
+
+#~ msgid "Credit"
+#~ msgstr "Credit"
+
+#~ msgid "Company Name"
+#~ msgstr "Company Name"
+
+#~ msgid "ZIP"
+#~ msgstr "ZIP"
+
+#~ msgid "City"
+#~ msgstr "City"
+
+#~ msgid "Street and number"
+#~ msgstr "Street and number"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel"
+
+#~ msgid "Update"
+#~ msgstr "Update"
+
+#~ msgid "Change password"
+#~ msgstr "Change password"
+
+#~ msgid "Passwords must be at least 8 char"
+#~ msgstr "Passwords must be at least 8 char"
+
+#~ msgid "Wrong password"
+#~ msgstr "Wrong password"
+
+#~ msgid "Passwords don't match"
+#~ msgstr "Passwords don't match"
+
+#~ msgid "New password updated"
+#~ msgstr "New password updated"
+
+#~ msgid "Enter a coupon"
+#~ msgstr "Enter a coupon"
+
+#~ msgid "This coupon is not valid"
+#~ msgstr "This coupon is not valid"
+
+#~ msgid "Make a deposit"
+#~ msgstr "Make a deposit"
+
+#~ msgid "My Balance"
+#~ msgstr "My Balance"
+
+#~ msgid "Create"
+#~ msgstr "Create"
+
+#~ msgid "Logout"
+#~ msgstr "Logout"
+
+#~ msgid "Email Address"
+#~ msgstr "Email Address"
+
+#~ msgid "My Ads"
+#~ msgstr "My Ads"
+
+#~ msgid "Show"
+#~ msgstr "Show"
+
+#~ msgid "My Information"
+#~ msgstr "My Information"
+
+#~ msgid "Finances"
+#~ msgstr "Finances"
+
+#~ msgid "Logged in as"
+#~ msgstr "Logged in as"
+
+#~ msgid "Partners"
+#~ msgstr "Partners"
+
+#~ msgid "Load"
+#~ msgstr "Load"
+
+#~ msgid "Title"
+#~ msgstr "Title"
+
+#~ msgid "Categories"
+#~ msgstr "Categories"
+
+#~ msgid "Action"
+#~ msgstr "Action"
+
+#~ msgid "Title of the ad"
+#~ msgstr "Title of the ad"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "Limit per day"
+#~ msgstr "Limit per day"
+
+#~ msgid "Day"
+#~ msgstr "Day"
+
+#~ msgid "Bid per click"
+#~ msgstr "Bid per click"
+
+#~ msgid "The higher the bid is, the higher the position is"
+#~ msgstr "The higher the bid is, the higher the position is"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "URL (with http://)"
+#~ msgstr "URL (with http://)"
+
+#~ msgid ""
+#~ "To measure your sales success that you achieve through us, we offer a "
+#~ "conversion tracking"
+#~ msgstr ""
+#~ "To measure your sales success that you achieve through us, we offer a "
+#~ "conversion tracking"
+
+#~ msgid ""
+#~ "You simply need to add the following code on the checkout page of your "
+#~ "store"
+#~ msgstr ""
+#~ "You simply need to add the following code on the checkout page of your "
+#~ "store"
+
+#~ msgid "Y-m-d"
+#~ msgstr "Y-m-d"
+
+#~ msgid "yy-mm-dd"
+#~ msgstr "yy-mm-dd"
+
+#~ msgid "Subject"
+#~ msgstr "Subject"
+
+#~ msgid "Please select"
+#~ msgstr "Please select"
+
+#~ msgid "Suggestions"
+#~ msgstr "Suggestions"
+
+#~ msgid "Product Support"
+#~ msgstr "Product Support"
+
+#~ msgid "Your First Name"
+#~ msgstr "Your First Name"
+
+#~ msgid "Last Name"
+#~ msgstr "Last Name"
+
+#~ msgid "Your Last Name"
+#~ msgstr "Your Last Name"
+
+#~ msgid "Your Email Address"
+#~ msgstr "Your Email Address"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "Send"
+#~ msgstr "Send"
+
+#~ msgid ""
+#~ "Your message has been sent, we will be back to you within the next 48 "
+#~ "hours"
+#~ msgstr ""
+#~ "Your message has been sent, we will be back to you within the next 48 "
+#~ "hours"
+
+#~ msgid "You ticket's id is"
+#~ msgstr "You ticket's id is"
+
+#~ msgid "Return to homepage"
+#~ msgstr "Return to homepage"
+
+#~ msgid "Join now"
+#~ msgstr "Join now"
+
+#~ msgid "Amount"
+#~ msgstr "Amount"
+
+#~ msgid "VAT"
+#~ msgstr "VAT"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Payment method"
+#~ msgstr "Payment method"
+
+#~ msgid "SOFORT Banking"
+#~ msgstr "SOFORT Banking"
+
+#~ msgid "Bank transfer"
+#~ msgstr "Bank transfer"
+
+#~ msgid "Method of Payment"
+#~ msgstr "Method of Payment"
+
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#~ msgid "Successful"
+#~ msgstr "Successful"
+
+#~ msgid "Pending"
+#~ msgstr "Pending"
+
+#~ msgid "Failed"
+#~ msgstr "Failed"
+
+#~ msgid "Old password"
+#~ msgstr "Old password"
+
+#~ msgid "New password"
+#~ msgstr "New password"
+
+#~ msgid "New password confirmation"
+#~ msgstr "New password confirmation"
+
+#~ msgid "Return"
+#~ msgstr "Return"
+
+#~ msgid "Startseite"
+#~ msgstr "Startseite"

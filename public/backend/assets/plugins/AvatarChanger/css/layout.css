@@ -1,0 +1,204 @@
+#AvatarChanger_bg
+{
+	position: fixed;
+	
+	top: 0;
+	left: 0;
+	
+	width: 100%;
+	height: 100%;
+	
+	z-index: 9998;
+	
+	background-color: #000;
+}
+
+#AvatarChanger_wrapper
+{
+	position: fixed;
+	
+	z-index: 9999;
+	
+	text-align: center;
+	
+	font-size: 11px;
+	font-family: 'Arial';
+}
+
+/* Wrap */
+#AvatarChanger_wrap
+{
+	display: inline-block;
+	
+	position: relative;
+}
+
+#AvatarChanger_wrap>img
+{
+	display: block;
+}
+
+/* Button */
+#AvatarChanger_button
+{
+	position: absolute;
+	
+	padding: 5px 10px;
+	
+	border-radius: 5px;
+	
+	color: #fff;
+	font-size: 11px;
+	font-family: 'Arial';
+	
+	background-color: #000;
+}
+
+/* Messages */
+#AvatarChanger_wrapper>p
+{
+	padding: 0;
+	
+	text-align: center;
+}
+
+#AvatarChanger_close
+{
+	display: inline-block;
+	
+	cursor: pointer;
+	
+	margin: 0 0 10px 0;
+}
+
+#AvatarChanger_instruction
+{
+	margin: 10px 0 0 0;
+}
+
+/* Loading */
+#AvatarChanger_container.loading
+{
+	width: 100%;
+	height: 3px;
+}
+
+#AvatarChanger_container.loading>div
+{
+	position: absolute;
+	
+	height: 3px;
+}
+
+/* Selection */
+#AvatarChanger_container.selection
+{
+	display: inline-block;
+}
+
+#AvatarChanger_container>div.method
+{
+	float: left;
+	
+	position: relative;
+	
+	width: 150px;
+	height: 150px;
+	
+	margin-left: 1px;
+	
+	cursor: pointer;
+}
+
+#AvatarChanger_container>div.method.first
+{
+	margin-left: 0;
+}
+
+#AvatarChanger_container>div.method>div.icon
+{
+	position: absolute;
+	
+	top: 67px;
+	left: 67px;
+	
+	width: 16px;
+	height: 16px;
+	
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+#AvatarChanger_container>div.method.hover>div.icon
+{
+	background-position: 0 -16px;
+}
+
+#AvatarChanger_container>div.method.disabled
+{
+	cursor: default;
+}
+
+#AvatarChanger_container>div.method.disabled>div.icon
+{
+	background-position: 0 -32px;
+}
+
+#AvatarChanger_container>div.method>p
+{
+	position: absolute;
+	
+	margin: 0;
+	padding: 0;
+	
+	width: 150px;
+	
+	bottom: 10px;
+	
+	text-align: center;
+}
+
+/* Preview */
+#AvatarChanger_container.preview
+{
+	display: inline-block;
+}
+
+#AvatarChanger_preview
+{
+	position: relative;
+	
+	overflow: hidden;
+	
+	border: 1px dashed;
+	
+	cursor: move;
+}
+
+#AvatarChanger_preview>img
+{
+	position: absolute;
+}
+
+#AvatarChanger_done
+{
+	padding: 10px;
+	
+	margin-top: 1px;
+	
+	cursor: pointer;
+}
+
+/* Error */
+#AvatarChanger_error
+{
+	padding: 10px;
+	
+	margin-top: 1px;
+}
+
+/* Webcam */
+#AvatarChanger_camera
+{
+	cursor: pointer;
+}

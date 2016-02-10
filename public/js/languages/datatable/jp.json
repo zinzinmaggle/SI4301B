@@ -1,0 +1,24 @@
+
+
+{
+	"sProcessing":     "処理中...",
+	"sSearch":         "Rechercher&nbsp;:",
+  "sLengthMenu":   "_MENU_ 件表示",
+  "sInfo":         " _TOTAL_ 件中 _START_ から _END_ まで表示",
+  "sInfoEmpty":    " 0 件中 0 から 0 まで表示",
+  "sInfoFiltered": "（全 _MAX_ 件より抽出）",
+  "sInfoPostFix":  "",
+	"sLoadingRecords": "処理中...",
+  "sZeroRecords":  "データはありません。",
+	"sEmptyTable":     "表中のデータなし",
+	"oPaginate": {
+      "sFirst":    "先頭",
+      "sPrevious": "前",
+      "sNext":     "次",
+      "sLast":     "最終"
+	},
+	"oAria": {
+		"sSortAscending":  ": 昇順で列を並べ替えることが可能に",
+		"sSortDescending": ": 降順で列をソートできるようにするには"
+	}
+}
