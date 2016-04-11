@@ -1,9 +1,14 @@
 <?php
 $session = SessionModel::getInstance();
 
-$items = json_decode(
-    file_get_contents("http://steamcommunity.com/profiles/".$session->steamid."/inventory/json/730/2")
-);
+if (empty($session->items)) {
+    $items = json_decode(
+        file_get_contents("http://steamcommunity.com/profiles/".$session->steamid."/inventory/json/730/2"), true
+    );
+    $session->set('items', $items);
+} else {
+    $items = $session->items;
+}
 
 ?>
 <legend>Ajouter une loterie</legend>
@@ -111,21 +116,25 @@ $items = json_decode(
                         <div class="col-lg-10">
                             <select class="form-control" id="select">
                                 <?php
-                                foreach ($items->rgDescriptions as $key => $val) {
+                                foreach ($items['rgDescriptions'] as $key => $val) {
+                                    if (!isset($val['items_price'])) {
+                                        $elements = array("currency" => 3, "appid" => 730, "market_hash_name" => $val['market_hash_name']);
+                                        $file = StaticModel::GetUrlContent("http://steamcommunity.com/market/priceoverview/", $elements);
+                                        $val['items_price'] = json_decode($file, true);
+                                        // $items->rgDescriptions[$key]->items_price = $val->items_price;
+                                    }
 
-
-                                    $elements = array("currency" => 3, "appid" => 730, "market_hash_name" => $val->market_hash_name);
-                                    $file = StaticModel::GetUrlContent("http://steamcommunity.com/market/priceoverview/", $elements);
-                                    $items_price = json_decode($file);
-
-
-                                    echo "<option>".$val->market_hash_name." | ".$items_price->lowest_price." | ".$val->icon_url."</option>";
-
-
+                                    echo "<option icon-url='' price=''>".$val['market_hash_name']." | ".$val['items_price']['lowest_price']." | ".$val['icon_url']."</option>";
                                 }
+
+                                $session->set('items', $items);
+
                                 ?>
                             </select>
+                            <?php 
 
+                                // var_dump($items);
+                                ?>
                         </div>
                     </div>
                 </div>
