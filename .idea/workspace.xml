@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6bb6b9eb-4d29-4987-b695-1fd3d7eca9b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Administration.php" afterPath="$PROJECT_DIR$/application/controllers/Administration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Lottery.php" afterPath="$PROJECT_DIR$/application/controllers/Lottery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Returns.php" afterPath="$PROJECT_DIR$/application/controllers/Returns.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Test.php" afterPath="$PROJECT_DIR$/application/controllers/Test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/administration/index.phtml" afterPath="$PROJECT_DIR$/application/views/administration/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/error/error.phtml" afterPath="$PROJECT_DIR$/application/views/error/error.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/returns/index.phtml" afterPath="$PROJECT_DIR$/application/views/returns/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/test/index.phtml" afterPath="$PROJECT_DIR$/application/views/test/index.phtml" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,19 +46,19 @@
         <entry file="file://$PROJECT_DIR$/application/controllers/Lottery.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-19.083334">
-              <caret line="94" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="52" />
+              <caret line="95" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="52" />
               <folding>
-                <marker date="1460377335600" expanded="true" signature="601:648" placeholder="SELECT * FRO..Lotteries..." />
-                <marker date="1460377335600" expanded="true" signature="762:934" placeholder="SELECT COUNT..Participations..." />
-                <marker date="1460377335600" expanded="true" signature="1160:4187" placeholder="..." />
-                <marker date="1460377335600" expanded="true" signature="1201:1375" placeholder="SELECT derni..Participations..." />
-                <marker date="1460377335600" expanded="true" signature="1665:1825" placeholder="SELECT COUNT..Participations..." />
-                <marker date="1460377335600" expanded="true" signature="1901:1944" placeholder="SELECT entry..Lotteries..." />
-                <marker date="1460377335600" expanded="true" signature="2108:2288" placeholder="INSERT INTO Participations..." />
-                <marker date="1460377335600" expanded="true" signature="2602:2656" placeholder="UPDATE Lotte..." />
-                <marker date="1460377335600" expanded="true" signature="2859:2957" placeholder="SELECT idSte..Participations..." />
-                <marker date="1460377335600" expanded="true" signature="3302:3368" placeholder="SELECT item_..Lotteries..." />
-                <marker date="1460377335600" expanded="true" signature="3544:3692" placeholder="INSERT INTO Returns..." />
+                <marker date="1460381064972" expanded="true" signature="601:648" placeholder="SELECT * FRO..Lotteries..." />
+                <marker date="1460381064972" expanded="true" signature="762:934" placeholder="SELECT COUNT..Participations..." />
+                <marker date="1460381064972" expanded="true" signature="1168:4195" placeholder="..." />
+                <marker date="1460381064972" expanded="true" signature="1209:1383" placeholder="SELECT derni..Participations..." />
+                <marker date="1460381064972" expanded="true" signature="1673:1833" placeholder="SELECT COUNT..Participations..." />
+                <marker date="1460381064972" expanded="true" signature="1909:1952" placeholder="SELECT entry..Lotteries..." />
+                <marker date="1460381064972" expanded="true" signature="2116:2296" placeholder="INSERT INTO Participations..." />
+                <marker date="1460381064972" expanded="true" signature="2610:2664" placeholder="UPDATE Lotte..." />
+                <marker date="1460381064972" expanded="true" signature="2867:2965" placeholder="SELECT idSte..Participations..." />
+                <marker date="1460381064972" expanded="true" signature="3310:3376" placeholder="SELECT item_..Lotteries..." />
+                <marker date="1460381064972" expanded="true" signature="3552:3700" placeholder="INSERT INTO Returns..." />
               </folding>
             </state>
           </provider>
@@ -74,16 +67,16 @@
       <file leaf-file-name="Administration.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/Administration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3035413">
-              <caret line="12" column="57" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="57" />
+            <state vertical-scroll-proportion="-0.7959528">
+              <caret line="18" column="39" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="57" />
               <folding>
-                <marker date="1460377335596" expanded="true" signature="605:628" placeholder="SELECT * FRO..Lotteries..." />
-                <marker date="1460377335596" expanded="true" signature="690:716" placeholder="SELECT * FRO..Reclamations..." />
-                <marker date="1460377335596" expanded="true" signature="1669:1886" placeholder="INSERT INTO Lotteries..." />
-                <marker date="1460377335596" expanded="true" signature="2192:2248" placeholder="UPDATE Recla..." />
-                <marker date="1460377335596" expanded="true" signature="2594:2631" placeholder="DELETE FROM ..." />
-                <marker date="1460377335596" expanded="true" signature="2665:2724" placeholder="DELETE FROM ..." />
-                <marker date="1460377335596" expanded="true" signature="2758:2804" placeholder="DELETE FROM ..." />
+                <marker date="1460381064972" expanded="true" signature="822:845" placeholder="SELECT * FRO..Lotteries..." />
+                <marker date="1460381064972" expanded="true" signature="907:933" placeholder="SELECT * FRO..Reclamations..." />
+                <marker date="1460381064972" expanded="true" signature="1886:2103" placeholder="INSERT INTO Lotteries..." />
+                <marker date="1460381064972" expanded="true" signature="2409:2465" placeholder="UPDATE Recla..." />
+                <marker date="1460381064972" expanded="true" signature="2811:2848" placeholder="DELETE FROM ..." />
+                <marker date="1460381064972" expanded="true" signature="2882:2941" placeholder="DELETE FROM ..." />
+                <marker date="1460381064972" expanded="true" signature="2975:3021" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -113,12 +106,24 @@
         <entry file="file://$PROJECT_DIR$/application/controllers/Returns.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.75">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <marker date="1460377335600" expanded="true" signature="606:627" placeholder="SELECT * FRO..Returns..." />
-                <marker date="1460377335600" expanded="true" signature="860:959" placeholder="SELECT has_c..Returns..." />
-                <marker date="1460377335600" expanded="true" signature="1144:1246" placeholder="UPDATE Retur..." />
-                <marker date="1460377335600" expanded="true" signature="1317:1440" placeholder="INSERT INTO Reclamations..." />
+                <marker date="1460381064972" expanded="true" signature="606:627" placeholder="SELECT * FRO..Returns..." />
+                <marker date="1460381064972" expanded="true" signature="868:967" placeholder="SELECT has_c..Returns..." />
+                <marker date="1460381064972" expanded="true" signature="1152:1254" placeholder="UPDATE Retur..." />
+                <marker date="1460381064972" expanded="true" signature="1325:1448" placeholder="INSERT INTO Reclamations..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/administration/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.1666665">
+              <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+              <folding>
+                <marker date="1460381294468" expanded="true" signature="10022:10050" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -183,9 +188,7 @@
         <option value="$PROJECT_DIR$/application/models/PDO.php" />
         <option value="$PROJECT_DIR$/public/backend/assets/plugins/steamauth/steamauth.php" />
         <option value="$PROJECT_DIR$/application/views/test/index.phtml" />
-        <option value="$PROJECT_DIR$/application/views/administration/index.phtml" />
         <option value="$PROJECT_DIR$/application/views/returns/index.phtml" />
-        <option value="$PROJECT_DIR$/application/controllers/Administration.php" />
         <option value="$PROJECT_DIR$/application/controllers/Lottery.php" />
         <option value="$PROJECT_DIR$/application/controllers/Returns.php" />
         <option value="$PROJECT_DIR$/application/controllers/Test.php" />
@@ -193,6 +196,8 @@
         <option value="$PROJECT_DIR$/application/views/error/error.phtml" />
         <option value="$PROJECT_DIR$/application/controllers/Forbidden.php" />
         <option value="$PROJECT_DIR$/application/views/forbidden/index.phtml" />
+        <option value="$PROJECT_DIR$/application/controllers/Administration.php" />
+        <option value="$PROJECT_DIR$/application/views/administration/index.phtml" />
       </list>
     </option>
   </component>
@@ -400,6 +405,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -512,9 +539,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35729167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35729167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32497388" sideWeight="0.5125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -839,16 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/administration/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5311973">
-          <caret line="192" column="32" selection-start-line="192" selection-start-column="32" selection-end-line="192" selection-end-column="32" />
-          <folding>
-            <marker date="1460376827604" expanded="true" signature="9995:10023" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/test/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7841484">
@@ -868,28 +885,12 @@
     <entry file="file://$PROJECT_DIR$/application/controllers/Returns.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1460377335600" expanded="true" signature="606:627" placeholder="SELECT * FRO..Returns..." />
-            <marker date="1460377335600" expanded="true" signature="860:959" placeholder="SELECT has_c..Returns..." />
-            <marker date="1460377335600" expanded="true" signature="1144:1246" placeholder="UPDATE Retur..." />
-            <marker date="1460377335600" expanded="true" signature="1317:1440" placeholder="INSERT INTO Reclamations..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Administration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3035413">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="57" />
-          <folding>
-            <marker date="1460377335596" expanded="true" signature="605:628" placeholder="SELECT * FRO..Lotteries..." />
-            <marker date="1460377335596" expanded="true" signature="690:716" placeholder="SELECT * FRO..Reclamations..." />
-            <marker date="1460377335596" expanded="true" signature="1669:1886" placeholder="INSERT INTO Lotteries..." />
-            <marker date="1460377335596" expanded="true" signature="2192:2248" placeholder="UPDATE Recla..." />
-            <marker date="1460377335596" expanded="true" signature="2594:2631" placeholder="DELETE FROM ..." />
-            <marker date="1460377335596" expanded="true" signature="2665:2724" placeholder="DELETE FROM ..." />
-            <marker date="1460377335596" expanded="true" signature="2758:2804" placeholder="DELETE FROM ..." />
+            <marker date="1460381064972" expanded="true" signature="606:627" placeholder="SELECT * FRO..Returns..." />
+            <marker date="1460381064972" expanded="true" signature="868:967" placeholder="SELECT has_c..Returns..." />
+            <marker date="1460381064972" expanded="true" signature="1152:1254" placeholder="UPDATE Retur..." />
+            <marker date="1460381064972" expanded="true" signature="1325:1448" placeholder="INSERT INTO Reclamations..." />
           </folding>
         </state>
       </provider>
@@ -905,19 +906,19 @@
     <entry file="file://$PROJECT_DIR$/application/controllers/Lottery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.083334">
-          <caret line="94" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="52" />
+          <caret line="95" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="52" />
           <folding>
-            <marker date="1460377335600" expanded="true" signature="601:648" placeholder="SELECT * FRO..Lotteries..." />
-            <marker date="1460377335600" expanded="true" signature="762:934" placeholder="SELECT COUNT..Participations..." />
-            <marker date="1460377335600" expanded="true" signature="1160:4187" placeholder="..." />
-            <marker date="1460377335600" expanded="true" signature="1201:1375" placeholder="SELECT derni..Participations..." />
-            <marker date="1460377335600" expanded="true" signature="1665:1825" placeholder="SELECT COUNT..Participations..." />
-            <marker date="1460377335600" expanded="true" signature="1901:1944" placeholder="SELECT entry..Lotteries..." />
-            <marker date="1460377335600" expanded="true" signature="2108:2288" placeholder="INSERT INTO Participations..." />
-            <marker date="1460377335600" expanded="true" signature="2602:2656" placeholder="UPDATE Lotte..." />
-            <marker date="1460377335600" expanded="true" signature="2859:2957" placeholder="SELECT idSte..Participations..." />
-            <marker date="1460377335600" expanded="true" signature="3302:3368" placeholder="SELECT item_..Lotteries..." />
-            <marker date="1460377335600" expanded="true" signature="3544:3692" placeholder="INSERT INTO Returns..." />
+            <marker date="1460381064972" expanded="true" signature="601:648" placeholder="SELECT * FRO..Lotteries..." />
+            <marker date="1460381064972" expanded="true" signature="762:934" placeholder="SELECT COUNT..Participations..." />
+            <marker date="1460381064972" expanded="true" signature="1168:4195" placeholder="..." />
+            <marker date="1460381064972" expanded="true" signature="1209:1383" placeholder="SELECT derni..Participations..." />
+            <marker date="1460381064972" expanded="true" signature="1673:1833" placeholder="SELECT COUNT..Participations..." />
+            <marker date="1460381064972" expanded="true" signature="1909:1952" placeholder="SELECT entry..Lotteries..." />
+            <marker date="1460381064972" expanded="true" signature="2116:2296" placeholder="INSERT INTO Participations..." />
+            <marker date="1460381064972" expanded="true" signature="2610:2664" placeholder="UPDATE Lotte..." />
+            <marker date="1460381064972" expanded="true" signature="2867:2965" placeholder="SELECT idSte..Participations..." />
+            <marker date="1460381064972" expanded="true" signature="3310:3376" placeholder="SELECT item_..Lotteries..." />
+            <marker date="1460381064972" expanded="true" signature="3552:3700" placeholder="INSERT INTO Returns..." />
           </folding>
         </state>
       </provider>
@@ -935,6 +936,32 @@
         <state vertical-scroll-proportion="-11.25">
           <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/administration/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1666665">
+          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+          <folding>
+            <marker date="1460381294468" expanded="true" signature="10022:10050" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Administration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7959528">
+          <caret line="18" column="39" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="57" />
+          <folding>
+            <marker date="1460381064972" expanded="true" signature="822:845" placeholder="SELECT * FRO..Lotteries..." />
+            <marker date="1460381064972" expanded="true" signature="907:933" placeholder="SELECT * FRO..Reclamations..." />
+            <marker date="1460381064972" expanded="true" signature="1886:2103" placeholder="INSERT INTO Lotteries..." />
+            <marker date="1460381064972" expanded="true" signature="2409:2465" placeholder="UPDATE Recla..." />
+            <marker date="1460381064972" expanded="true" signature="2811:2848" placeholder="DELETE FROM ..." />
+            <marker date="1460381064972" expanded="true" signature="2882:2941" placeholder="DELETE FROM ..." />
+            <marker date="1460381064972" expanded="true" signature="2975:3021" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
