@@ -12,7 +12,7 @@ class TestController extends Yaf\Controller_Abstract
         $this->_layout = $layout;
         $dispacher->registerPlugin($layout);
         $translate = Yaf\Registry::get("translate");
-        $this->_layout->meta_title = $translate->_('Counter-Strike : GO');
+        $this->_layout->meta_title = $translate->_('Qui veut gagner des skins ?');
     }
 
 

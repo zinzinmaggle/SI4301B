@@ -49,6 +49,10 @@ include('backend/assets/plugins/steamauth/userInfo.php');
                         <?php
 
                     }
+                    else if(!(isset($session->steamid)))
+                    {
+                        echo "<td ></td>";
+                    }
                     else
                     {
                         echo "<td >Aucune action disponible</td>";

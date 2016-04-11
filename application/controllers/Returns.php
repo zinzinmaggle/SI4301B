@@ -12,7 +12,7 @@ class ReturnsController extends Yaf\Controller_Abstract
         $this->_layout = $layout;
         $dispacher->registerPlugin($layout);
         $translate = Yaf\Registry::get("translate");
-        $this->_layout->meta_title = $translate->_('Counter-Strike : GO - Returns');
+        $this->_layout->meta_title = $translate->_('QVGDS - Récompenses');
 
     }
 

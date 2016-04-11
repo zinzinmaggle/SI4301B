@@ -10,7 +10,7 @@ class AdministrationController extends Yaf\Controller_Abstract
         $this->_layout = $layout;
         $dispacher->registerPlugin($layout);
         $translate = Yaf\Registry::get("translate");
-        $this->_layout->meta_title = $translate->_('Counter-Strike : GO - Administration');
+        $this->_layout->meta_title = $translate->_('QVGDS - Administration');
 
     }
     public function indexAction()
