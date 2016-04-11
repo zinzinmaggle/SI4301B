@@ -6,7 +6,7 @@ $items = json_decode(
 );
 
 ?>
-<legend>Ajouter une lotterie</legend>
+<legend>Ajouter une loterie</legend>
 
 <div class="row">
 
@@ -21,7 +21,7 @@ $items = json_decode(
                     <div class="col-lg-10">
                         <input
                             style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center; cursor: auto;"
-                            class="form-control" name="inputID" id="inputID" placeholder="Entré un ID pour la lotterie" type="text">
+                            class="form-control" name="inputID" id="inputID" placeholder="Entrer un ID pour la loterie" type="text">
                         <a id="generate-random-id" class="btn btn-info">générer</a>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ $items = json_decode(
 
 
 </div>
-<legend>Supprimer une lotterie</legend>
+<legend>Supprimer une loterie</legend>
 
 <div class="row">
 
@@ -143,11 +143,11 @@ $items = json_decode(
             <fieldset>
                 <div class="panel panel-info">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Liste des lotteries</h3>
+                        <h3 class="panel-title">Liste des loteries</h3>
                     </div>
                     <div class="panel-body">
                         <div class="form-group">
-                            <label for="select" class="col-lg-2 control-label">Choisir la lotterie à supprimer</label>
+                            <label for="select" class="col-lg-2 control-label">Choisir la loterie à supprimer</label>
 
                             <div class="col-lg-10">
                                 <select class="form-control" id="selectLotterie">
@@ -214,7 +214,7 @@ $items = json_decode(
                                                 <div class="alert alert-dismissible alert-danger">
                                                     <strong>RAPPEL!</strong> Vous n'avez pas récompensé <?php echo "<a href=\"http://steamcommunity.com/profiles/\".'$claims_t->idSteam'."; ?>
                                                                                                            class="alert-link"><?php echo $claims_t->hashname_steam ?></a>
-                                                    pour la lotterie <a href="/Returns"
+                                                    pour la loterie <a href="/Returns"
                                                                         class="alert-link">#<?php echo $claims_t->idLotterie ?></a>.
 
                                                     <form method="post" class="form-horizontal">
@@ -236,7 +236,7 @@ $items = json_decode(
                                                 ?>
                                                 <div class="alert alert-dismissible alert-success">
                                                     <strong>OK!</strong> Vous avez déjà récompensé <a href="#"
-                                                                                                      class="alert-link"><?php echo $claims_t->hashname_steam ?></a> pour la lotterie <a href="/Returns"
+                                                                                                      class="alert-link"><?php echo $claims_t->hashname_steam ?></a> pour la loterie <a href="/Returns"
                                                                                                         class="alert-link">#<?php echo $claims_t->idLotterie ?></a>
 
                                                     .
