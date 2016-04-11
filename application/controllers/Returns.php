@@ -29,7 +29,7 @@ class ReturnsController extends Yaf\Controller_Abstract
         $request = $this->getRequest();
         $idl = $request->getPost("lotteryID");
 
-        if($request->isPost()){
+        if($request->isPost() && $idl){
 
             $has_claimed= $pdo->query("SELECT has_claimed FROM Returns WHERE idSteamReturns = '$session->steamid' AND idLotterieReturns = $idl")->fetchAll(PDO::FETCH_OBJ);
             if($has_claimed)

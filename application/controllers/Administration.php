@@ -17,6 +17,12 @@ class AdministrationController extends Yaf\Controller_Abstract
     {
         $pdo = PDOModel::GetInstance();
         $request = $this->getRequest();
+        $session = SessionModel::getInstance();
+
+        if($session->steam_steamid != "76561198078265100" && $session->steam_steamid != "76561198041856215")
+        {
+            $this->redirect("/Error");
+        }
 
         $results = $pdo->query("SELECT * FROM Lotteries")->fetchAll(PDO::FETCH_OBJ);
 
