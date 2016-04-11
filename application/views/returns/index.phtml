@@ -1,5 +1,73 @@
 <?php
-
-    echo 'Returns';
-
+$session = SessionModel::getInstance();
+require_once 'backend/assets/plugins/steamauth/steamauth.php';
+include('backend/assets/plugins/steamauth/userInfo.php');
 ?>
+
+    <table class="table table-striped table-hover ">
+        <thead>
+        <tr>
+            <th>Référence de la lotterie</th>
+            <th>Gagnant de la lotterie</th>
+            <th>Prix remporté</th>
+            <?php
+            if (isset($session->steamid)) {
+                echo '<th >Actions</th >';
+            }
+            ?>
+        </tr>
+        </thead>
+        <?php
+        foreach ($this->$results as $key => $value){
+            foreach ($value as $key => $returns){
+                ?>
+
+
+                <tbody>
+                <?php
+                if (isset($session->steamid) && strcmp($returns->idSteamReturns,$session->steamid) == 0) {
+
+                    echo '<tr class="success">';
+                }
+                else
+                {
+                    echo '<tr>';
+                }
+                ?>
+                    <td><?php echo '#'.$returns->idLotterieReturns ?></td>
+                    <td><?php echo $returns->hashname_winner ?></td>
+                    <td><?php echo $returns->concat_price ?></td>
+                    <?php
+                    if (isset($session->steamid) && strcmp($returns->idSteamReturns,$session->steamid) == 0 && $returns->has_claimed == 0) {
+                        ?>
+                        <td >
+                            <form class="form-horizontal" method="post">
+                                <input type="text" nclass="form-control" name="lotteryID" id="lotteryID" value="<?php echo $returns->idLotterieReturns ?>" style="display:none;"/>
+                                <button type="submit" class="btn btn-primary">Réclamer</button>
+                            </form>
+                        </td >
+                        <?php
+
+                    }
+                    else
+                    {
+                        echo "<td >Aucune action disponible</td>";
+                    }
+                    ?>
+                </tr >
+                </tbody>
+
+                <?php
+
+
+
+
+
+
+            }
+
+        }
+
+
+        ?>
+

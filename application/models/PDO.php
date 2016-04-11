@@ -9,7 +9,7 @@ class PDOModel extends \PDO
     public function __construct()
     {
 
-        parent::__construct('mysql:host=127.0.0.1;dbname=skincsgo;charset=utf8', "root", "fredericquemper");
+        parent::__construct('mysql:host=127.0.0.1;dbname=skincsgo;charset=utf8', "root", "root");
     }
 
     public static function GetInstance($auto_encode = false)

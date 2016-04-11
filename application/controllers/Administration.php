@@ -15,8 +15,22 @@ class AdministrationController extends Yaf\Controller_Abstract
     }
     public function indexAction()
     {
-
+        $pdo = PDOModel::GetInstance();
         $request = $this->getRequest();
+
+        $results = $pdo->query("SELECT * FROM Lotteries")->fetchAll(PDO::FETCH_OBJ);
+
+        $claims = $pdo->query("SELECT * FROM Reclamations")->fetchAll(PDO::FETCH_OBJ);
+
+        $GLOBAL[] = $results;
+        array_push($GLOBAL,$claims);
+
+        $this->_view->administration=$GLOBAL;
+
+
+
+
+
         if($request->isPost()){
 
             $pdo = PDOModel::GetInstance();
@@ -25,16 +39,52 @@ class AdministrationController extends Yaf\Controller_Abstract
             $description = $request->getPost("inputDescription");
             $state = $request->getPost("inputState");
             $value = $request->getPost("inputPrice");
+            $imageurl = $request->getPost("inputImageUrl");
 
-            //. $pdo->quote($request->inputID) .', '. $pdo->quote($_POST['inputAmount']) .', '. $pdo->quote($_POST['inputDescription']) .', '. $pdo->quote($_POST['inputState']) .', '. $pdo->quote($_POST['inputPrice']) .'
-           /* if($pdo->query("INSERT  INTO Lotteries (sub_id,entry,starting_date,ending_date,item_description,item_state,item_value) VALUES ('$sub_id',$entry,'',null,'$description','$state','$value')"))
+
+            $remove_lottery_before = $request->getPost("inputLotterie");
+            $validate_claim = $request->getPost("idlotterie");
+
+            if(isset($sub_id) && isset($entry) && isset($description) && isset($state) && isset($value))
             {
-                $this->redirect("/");
+                $date = new DateTime();
+                $current_date = $date->getTimestamp();
+                if($pdo->query("INSERT INTO Lotteries (sub_id,entry,starting_date,ending_date,item_description,item_state,item_value,imageurl,lottery_ended) VALUES ('$sub_id',$entry, $current_date,null,'$description','$state','$value','$imageurl',0)"))
+                {
+                    $this->redirect("/Lottery");
+                }
+                else
+                {
+                    $this->redirect("/Administration");
+                }
             }
-            else
+            else if(isset($validate_claim))
             {
-                $this->redirect("/");
-            }*/
+                if($pdo->query("UPDATE Reclamations SET validate = 1 WHERE idLotterie = $validate_claim"))
+                {
+                    $this->redirect("/Administration");
+
+                }
+                else
+                {
+                    $this->redirect("/Error");
+
+                }
+            }
+            else {
+                $remove_lottery = (int)$remove_lottery_before;
+
+                if($pdo->query("DELETE FROM Lotteries WHERE sub_id = $remove_lottery") && $pdo->query("DELETE FROM Participations WHERE idLotterieParticipation = $remove_lottery") && $pdo->query("DELETE FROM Returns WHERE idLotterieReturns = $remove_lottery"))
+                {
+                    $this->redirect("/Administration");
+
+                }
+                else
+                {
+                    $this->redirect("/Error");
+                }
+
+            }
 
         }
         $translate = Yaf\Registry::get("translate");

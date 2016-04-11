@@ -5,7 +5,7 @@ require ('openid.php');
 
 function logoutbutton() {
 
-   echo "<form action=\"Authentification/logout\" method=\"post\"><input value=\"Logout\" type=\"submit\" class='steamlogout' /></form>"; //logout button
+   echo "<form action=\"Authentification/logout\" method=\"post\"><input value=\"Déconnexion\" type=\"submit\" class='steamlogout' /></form>"; //logout button
 
 }
 
@@ -26,7 +26,7 @@ try {
             header('Location: ' . $openid->authUrl());
         }
 
-    return "<form action=\"?login\" method=\"post\"><input value=\"Sign in with Steam\" type=\"submit\" class='steamlogout' /></form>";
+    return "<form action=\"?login\" method=\"post\"><input value=\"Se connecter\" type=\"submit\" class='steamlogout' /></form>";
     }
 
      elseif($openid->mode == 'cancel') {

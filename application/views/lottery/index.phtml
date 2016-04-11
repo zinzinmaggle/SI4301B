@@ -1,52 +1,80 @@
+<?php
+$session = SessionModel::getInstance();
+require_once 'backend/assets/plugins/steamauth/steamauth.php';
+include('backend/assets/plugins/steamauth/userInfo.php');
+?>
 
-<div class="row">
+
     <?php
     foreach ($this->$results as $key => $value){
-        foreach ($value as $key => $lottery){
+    foreach ($value as $key => $lottery){
     ?>
-    <div class="col-md-4">
-        <div class="container-lottery">
-            <div class="row">
-                <div class="col-md-12">
+    <div class="col-md-2 colonne">
 
-                </div>
-                <div class="col-md-12">
-                    <div class="col-md-6" class="left-container-lottery">
-                        <p>
-                            <?php
-                        echo '<span class=\'label_lottery\'><i class=\'fa fa-asterisk\'></i> Identfier : </span>'.$lottery->sub_id.'<br>';
-                        echo '<span class=\'label_lottery\'><i class=\'fa fa-ticket\'></i> Entry :  </span>'.$lottery->entry.'<br>';
-                            ?>
-                        </p>
-                    </div>
-                    <div class="col-md-6"  class="right-container-lottery">
+    <div class="card text-xs-center">
+        <div class="card-header">
+          <span class="list-lotterie">Lotterie #</span><?php echo $lottery->sub_id ?>
 
-                    </div>
-                    <p>
-                        <?php
-                        echo '<span class=\'label_lottery\'><i class=\'fa fa-info-circle\'></i> Skin :  </span>'.$lottery->item_description.'<br>';
-                        echo '<span class=\'label_lottery\'><i class=\'fa fa-info-circle\'></i> State :  </span>'.$lottery->item_state.'<br>';
-                        echo '<span class=\'label_lottery\'><i class=\'fa fa-money\'></i> Value on market :  </span>'.$lottery->item_value.'<br>';
-                        ?>
-                    </p>
-                </div>
-            </div>
         </div>
-    </div>
+
+
+        <div class="card-block">
+            <?php echo "<img class='weapon_img' src='http://steamcommunity-a.akamaihd.net/economy/image/".$lottery->imageurl."'";?>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <span class="list-lotterie">Participants :</span>
+                    <?php
+                    if(sizeof($lottery->test) == 0)
+                    {
+                        echo '0 sur '.$lottery->entry;
+                    }
+                    else
+                    {
+
+
+                        foreach ($lottery->test as $key => $value) {
+
+                            echo $value->Total.' sur '.$lottery->entry;
+
+
+
+                        }
+                    }
+                    ?>
+
+
+                </li>
+                <li class="list-group-item"><span class="list-lotterie">Skin :</span> <?php echo $lottery->item_description ?></li>
+                <li class="list-group-item"><span class="list-lotterie">État :</span> <?php echo $lottery->item_state ?></li>
+                <li class="list-group-item"><span class="list-lotterie">Valeur :</span> <?php echo $lottery->item_value ?></li>
+            </ul>
+            <?php
+            if (isset($session->steamid)) {
+                ?>
+
+                    <form class="form-horizontal" method="post">
+                        <input type="text" nclass="form-control" name="lotteryID" id="lotteryID" value="<?php echo $lottery->sub_id ?>" style="display:none;"/>
+                        <button type="submit" class="btn btn-primary" style="margin-top:10px;">Participer</button>
+                    </form>
+
+                <?php
+
+            }
+            ?>
+        </div>
+        <div class="card-footer text-muted">
             <?php
 
+            $var =  StaticModel::time_elapsed_string($lottery->starting_date);
+            echo $var;
 
+            ?>
+        </div>
+    </div>
 
-
-
-
+    </div>
+    <?php
         }
-
     }
-
-
     ?>
-
-</div>
-
 
