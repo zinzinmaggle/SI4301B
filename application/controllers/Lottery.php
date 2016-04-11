@@ -34,7 +34,7 @@ class LotteryController extends Yaf\Controller_Abstract
         $idl = $request->getPost("lotteryID");
         $t = time();
 
-        if($request->isPost()){
+        if($request->isPost() && $idl){
           //  $condition = $pdo->query("SELECT derniereParticipation FROM Participations WHERE idSteamParticipant = '$session->steamid' AND idLotterieParticipation = $idl ORDER BY derniereParticipation DESC LIMIT 1")->fetchAll(PDO::FETCH_OBJ);
           //  $now= time();
           //  if($now < $condition[0]->derniereParticipation+(24*3600))
